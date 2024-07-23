@@ -31,7 +31,7 @@ My research interests include human-computer interaction, specifically how AI as
 
 # 🎖 Honors and Awards
 - *2023.09 - 2024.03* Research Assistantship. 
-- *2024.04 - 2024.08* Teaching Assistantship. 
+- *2024.04 - 2024.08* Teaching Assistantship (CS362 Software Engineering II). 
 
 # 📖 Educations
 - *2023.09 - 2024.08 (now)*, Ph.D. Student in Computer Science, Oregon State University, Corvallis, Oregon. 
