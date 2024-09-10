@@ -39,7 +39,7 @@ My research interests include human-computer interaction, specifically how AI as
 - *2016.09 - 2020.06*, B.E. in Software Engineering, Guangxi University of Science of Technology, Liuzhou, China.
 - *2017.09 - 2020.06*, B.E. in Information Technology, Southern Cross University, Gold Coast, Australia.
 
-# 💬 Invited Talks
+# 💼 Projects
 
 
 # 💻 Internships
