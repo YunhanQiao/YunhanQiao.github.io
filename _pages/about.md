@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yunhan Qiao. I am a second-year Ph.D. student supervised by Prof. Christopher Hundhausen at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by Dr. Robert Likamwa. I have been working in the software engineering field for seven years.
+My name is Yunhan Qiao. I am a second-year Ph.D. student supervised by [Prof. Christopher Hundhausen](https://engineering.oregonstate.edu/people/christopher-hundhausen) at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by Dr. Robert Likamwa. I have been working in the software engineering field for seven years.
 
 My research interests include human-computer interaction, specifically how AI assistance tools (e.g., Copilot) can improve the efficiency of software engineering tasks without sacrificing comprehension of coding.
 
