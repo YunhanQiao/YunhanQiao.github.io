@@ -41,7 +41,9 @@ My research interests include human-computer interaction, specifically how AI as
 # 💼 Projects
 **Program Comprehension of Integration Tasks using Copilot:**
 ![Workflow](/images/workflow.png)
-Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, Copilot has been shown to enhance productivity in software development significantly (e.g. solving basic programming tasks, enhancing code readability, etc.). While Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension when developers deal with integration tasks in the code base. Given that novices struggle with AI-generated code due to their poorly crafted prompts, which can increase their frustration levels. we speculate that they would also have trouble constructing prompts to help them comprehend existing code. Based on this motivation, we try to explore if the quality of the prompt is going to influence the program comprehension, and further influence the task completion.
+Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, Copilot has been shown to enhance productivity in software development significantly (e.g. solving basic programming tasks, enhancing code readability, etc.). While Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension when developers deal with integration tasks in the code base. Given that novices struggle with AI-generated code due to their poorly crafted prompts, which can increase their frustration levels. we speculate that they would also have trouble constructing prompts to help them comprehend existing code. This raises two key research questions:
+- *Research Question 1:* What strategies do novices use to leverage AI tools to help them understand an existing code base?
+- *Research Question 2:* How can we help novices improve their use of AI tools to enhance their comprehension of the code base?
 
 
 # 💻 Internships
