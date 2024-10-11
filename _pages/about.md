@@ -30,12 +30,11 @@ My research interests include human-computer interaction, specifically how AI as
 
 
 # 🎖 Honors and Awards
-- *2023 Fall, 2024 Winter:* Research Assistantship. 
+- *2023 Fall, 2024 Winter, 2024 Fall:* Research Assistantship. 
 - *2024 Spring, 2024 Summer:* Teaching Assistantship (CS362 Software Engineering II).
-- *2024 Fall:* Research Assistantship.
 
 # 📖 Educations
-- *2023.09 - 2024.08 (now)*, Ph.D. Student in Computer Science, Oregon State University, Corvallis, Oregon. 
+- *2023.09 - now*, Ph.D. Student in Computer Science, Oregon State University, Corvallis, Oregon. 
 - *2021.08 - 2023.05*, M.S. in Software Engineering, Arizona State University, Tempe, Arizona.
 
 # 💼 Projects
