@@ -26,10 +26,10 @@ My research interests include human-computer interaction, specifically how AI as
 
 
 # 📝 Publications 
-- Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, Yunhan Qiao, Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects, in Proceedings of the 48th International Conference on Software Engineering: Software Engineering Education and Training (under submission).
-- Yunhan Qiao, Md Istiak Hossain Shihab, Christopher Hundhausen, A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice, ACM Transaction on Computing Education (Under Review).
-- Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, Yunhan Qiao, Brian Mulanda Wise, Christopher Sanchez, The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks, in Proceedings of the 2025 ACM Conference on International Computing Education Research V.
-- Matthew Davis, Aakash Kulkarni, Ziyan Chen, Yunhan Qiao, Christopher Terrazas, and Manish Motwani, Automatically Detecting Heterogeneous Bugs in High-Performance Computing Scientific Software, arXiv preprint arXiv:2501.09872, 2025.
+- Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, **Yunhan Qiao**, Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects, in Proceedings of the 48th International Conference on Software Engineering: Software Engineering Education and Training (under submission).
+- **Yunhan Qiao**, Md Istiak Hossain Shihab, Christopher Hundhausen, A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice, ACM Transaction on Computing Education (Under Review).
+- Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, **Yunhan Qiao**, Brian Mulanda Wise, Christopher Sanchez, The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks, in Proceedings of the 2025 ACM Conference on International Computing Education Research V.
+- Matthew Davis, Aakash Kulkarni, Ziyan Chen, **Yunhan Qiao**, Christopher Terrazas, and Manish Motwani, Automatically Detecting Heterogeneous Bugs in High-Performance Computing Scientific Software, arXiv preprint arXiv:2501.09872, 2025.
 
 
 
