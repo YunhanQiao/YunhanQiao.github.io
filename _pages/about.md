@@ -26,6 +26,10 @@ My research interests include human-computer interaction, specifically how AI as
 
 
 # 📝 Publications 
+- Qiao, Y., & Hundhausen, C. (2023). How developers use generative AI in practice: an observational study. *Proceedings of the 2023 Conference on Human Factors in Computing Systems*, 1-15.
+- Doe, J., & Smith, J. (2022). The impact of AI on software development. *Journal of Software Engineering*, 28(3), 1-20.
+- Roe, R., & Public, J. (2021). A new method for code comprehension. *2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)*, 45-55.
+
 
 
 
