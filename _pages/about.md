@@ -26,9 +26,10 @@ My research interests include human-computer interaction, specifically how AI as
 
 
 # 📝 Publications 
-- Qiao, Y., & Hundhausen, C. (2023). How developers use generative AI in practice: an observational study. *Proceedings of the 2023 Conference on Human Factors in Computing Systems*, 1-15.
-- Doe, J., & Smith, J. (2022). The impact of AI on software development. *Journal of Software Engineering*, 28(3), 1-20.
-- Roe, R., & Public, J. (2021). A new method for code comprehension. *2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)*, 45-55.
+- Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, Yunhan Qiao, Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects, in Proceedings of the 48th International Conference on Software Engineering: Software Engineering Education and Training (under submission).
+- Yunhan Qiao, Md Istiak Hossain Shihab, Christopher Hundhausen, A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice, ACM Transaction on Computing Education (Under Review).
+- Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, Yunhan Qiao, Brian Mulanda Wise, Christopher Sanchez, The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks, in Proceedings of the 2025 ACM Conference on International Computing Education Research V.
+- Matthew Davis, Aakash Kulkarni, Ziyan Chen, Yunhan Qiao, Christopher Terrazas, and Manish Motwani, Automatically Detecting Heterogeneous Bugs in High-Performance Computing Scientific Software, arXiv preprint arXiv:2501.09872, 2025.
 
 
 
