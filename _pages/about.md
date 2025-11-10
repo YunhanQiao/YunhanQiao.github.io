@@ -27,7 +27,7 @@ My research interests include human-computer interaction, specifically how AI as
 
 # 📝 Publications 
 <strong>[ICPC '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Comprehension-Performance Gap in GenAI-Assisted Brownfield Programming: A Replication and Extension</strong></a>
-<strong>Yunhan Qiao<strong>, Md Istiak Hossain Shihab, Christopher Hundhausen
+<strong>Yunhan Qiao<strong>, Christopher Hundhausen, Summit Haque, Md Istiak Hossain Shihab
 <em>In: Proceedings of the 48th International Conference on Program Comprehension</em>
 <em>(Under Review)</em>
 <br>
