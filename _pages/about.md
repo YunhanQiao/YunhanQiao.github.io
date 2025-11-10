@@ -48,7 +48,7 @@ Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <st
 <em>In: Proceedings of the 2025 ACM Conference on International Computing Education Research (ICER '25)</em>
 <br>
 <br>
-<strong>[AIxSE'25]</strong> <a href="https://mmotwani.com/publications/publication_sources/Motwani25aixse.pdf"><strong>LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications</strong></a>
+<strong>[AIxSE '25]</strong> <a href="https://mmotwani.com/publications/publication_sources/Motwani25aixse.pdf"><strong>LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications</strong></a>
 Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziyan Chen
 <em>In: Proceedings of the IEEE International Conference on AI x Software Engineering (AIxSE '25)</em>
 
