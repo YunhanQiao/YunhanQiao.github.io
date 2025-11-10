@@ -31,18 +31,22 @@ My research interests include human-computer interaction, specifically how AI as
 <em>In: Proceedings of the 48th International Conference on Program Comprehension</em>
 <em>(Under Review)</em>
 <br>
+<br>
 <strong>[ICSE-SEET '26]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects</strong></a>
 Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, <strong>Yunhan Qiao</strong>
 <em>In: Proceedings of the 48th International Conference on Software Engineering: Software Engineering Education and Training</em>
 <em>(Under Review)</em>
 <br>
+<br>
 <strong>[TOCE]</strong> <a href="https://arxiv.org/pdf/2510.17894"><strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a>
 <strong>Yunhan Qiao</strong>, Md Istiak Hossain Shihab, Christopher Hundhausen
 <em>In: ACM Transactions on Computing Education (TOCE)</em>
 <br>
+<br>
 <strong>[ICER '25]</strong> <a href="https://dl.acm.org/doi/full/10.1145/3702652.3744219"><strong>The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</strong></a>
 Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <strong>Yunhan Qiao</strong>, Brian Mulanda Wise, Christopher Sanchez
 <em>In: Proceedings of the 2025 ACM Conference on International Computing Education Research (ICER '25)</em>
+<br>
 <br>
 <strong>[AIxSE'25]</strong> <a href="https://mmotwani.com/publications/publication_sources/Motwani25aixse.pdf"><strong>LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications</strong></a>
 Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziyan Chen
