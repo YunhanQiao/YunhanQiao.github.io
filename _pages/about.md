@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yunhan Qiao. I am a second-year Ph.D. student supervised by [Prof. Christopher Hundhausen](https://engineering.oregonstate.edu/people/christopher-hundhausen) at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by Dr. Robert Likamwa. I have been working in the software engineering field for seven years.
-
-My research interests include human-computer interaction, specifically how AI assistance tools (e.g., Copilot) can improve the efficiency of software engineering tasks without sacrificing comprehension of coding.
+My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Prof. Christopher Hundhausen](https://engineering.oregonstate.edu/people/christopher-hundhausen) at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by [Dr. Robert Likamwa](https://search.asu.edu/profile/3025945). My research interests include human-AI interaction, specifically how GenAI coding assistance tools (e.g., GitHub Copilot) can improve the efficiency of software engineering tasks without sacrificing code comprehension.
 
 
 # 🔥 News
@@ -56,8 +54,8 @@ Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziy
 
 
 # 🎖 Honors and Awards
-- *2023 Fall, 2024 Winter, 2024 Fall:* Research Assistantship. 
-- *2024 Spring, 2024 Summer:* Teaching Assistantship (CS362 Software Engineering II).
+- *2023 Fall-Present, 2024 Fall:* Research Assistantship. 
+- *2024 Spring, 2024,2025 Summer:* Teaching Assistantship (CS362 Software Engineering II).
 
 # 📖 Educations
 - *2023.09 - now*, Ph.D. Student in Computer Science, Oregon State University, Corvallis, Oregon. 
@@ -66,9 +64,10 @@ Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziy
 # 💼 Projects
 **Program Comprehension of Integration Tasks using Copilot:**
 ![Workflow](/images/workflow.png)
-Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, Copilot has been shown to enhance productivity in software development significantly (e.g. solving basic programming tasks, enhancing code readability, etc.). While Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension when developers deal with integration tasks in the code base. Given that novices struggle with AI-generated code due to their poorly crafted prompts, which can increase their frustration levels. we speculate that they would also have trouble constructing prompts to help them comprehend existing code. This raises two key research questions:
-- *Research Question 1:* What strategies do novices use to leverage AI tools to help them understand an existing code base?
-- *Research Question 2:* How can we help novices improve their use of AI tools to enhance their comprehension of the code base?
+Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, GitHub Copilot has been shown to enhance productivity in software development significantly (e.g., solving basic programming tasks, enhancing code readability, etc.). While GitHub Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension when dealing with brownfield programming tasks. Given that novices struggle with AI-generated code due to poorly crafted prompts, this can increase their frustration levels. We speculate that they would also have trouble constructing prompts to help them comprehend existing code. This raises two key research questions:
+- *Research Question 1:* Do GenAI coding assistance tools affect novices' code comprehension in brownfield programming tasks?
+- *Research Question 2:* What strategies do experts use to leverage GenAI coding assistance to help them understand an existing code base?
+- *Research Question 3:* Can we extract the best practices from experts and apply those practices for computing students/novice programmers to help them onboard the legacy codebases?
 
 
 # 💻 Internships
