@@ -54,17 +54,17 @@ Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziy
 
 
 # 🎖 Honors and Awards
-- *2023 Fall-Present, 2024 Fall:* Research Assistantship. 
+- *2023 Fall - Present:* Research Assistantship. 
 - *2024 Spring, 2024,2025 Summer:* Teaching Assistantship (CS362 Software Engineering II).
 
 # 📖 Educations
-- *2023.09 - now*, Ph.D. Student in Computer Science, Oregon State University, Corvallis, Oregon. 
-- *2021.08 - 2023.05*, M.S. in Software Engineering, Arizona State University, Tempe, Arizona.
+- *2023 - 2027*, Ph.D. in Computer Science, Oregon State University, Corvallis, Oregon. 
+- *2021 - 2023*, M.S. in Software Engineering, Arizona State University, Tempe, Arizona.
 
 # 💼 Projects
 **Program Comprehension of Integration Tasks using Copilot:**
 ![Workflow](/images/workflow.png)
-Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, GitHub Copilot has been shown to enhance productivity in software development significantly (e.g., solving basic programming tasks, enhancing code readability, etc.). While GitHub Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension when dealing with brownfield programming tasks. Given that novices struggle with AI-generated code due to poorly crafted prompts, this can increase their frustration levels. We speculate that they would also have trouble constructing prompts to help them comprehend existing code. This raises two key research questions:
+Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, GitHub Copilot has been shown to enhance productivity in software development significantly (e.g., solving basic programming tasks, enhancing code readability, etc.). While GitHub Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension in brownfield programming. Given that novices struggle with AI-generated code due to poorly crafted prompts, this can increase their frustration levels. We speculate that they would also struggle to construct prompts to help them understand existing code. This raises two key research questions:
 - *Research Question 1:* Do GenAI coding assistance tools affect novices' code comprehension in brownfield programming tasks?
 - *Research Question 2:* What strategies do experts use to leverage GenAI coding assistance to help them understand an existing code base?
 - *Research Question 3:* Can we extract the best practices from experts and apply those practices for computing students/novice programmers to help them onboard the legacy codebases?
