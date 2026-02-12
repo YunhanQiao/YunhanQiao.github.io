@@ -30,9 +30,10 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Dr. Christopher Hu
 <em>(Under Submission)</em>
 <br>
 <br>
-<strong>[ICSE-SEET '26]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects</strong></a>
-Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, <strong>Yunhan Qiao</strong>
-<em>In: Proceedings of the 48th International Conference on Software Engineering: Software Engineering Education and Training</em>
+<strong>[ICSE-SEET '26]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects<img width="468" height="23" alt="image" src="https://github.com/user-attachments/assets/6885700c-fa77-40d8-a7a8-990dd72bc153" />
+</strong></a>
+Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, Sanjay Chandrasekaran, Yunhan Qiao, Summit Haque
+<em>In: ACM Transactions on Computing Education (TOCE)</em>
 <em>(Under Review)</em>
 <br>
 <br>
@@ -41,7 +42,7 @@ Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, <strong>Yunhan Q
 <em>In: ACM Transactions on Computing Education (TOCE)</em>
 <br>
 <br>
-<strong>[ICER '25]</strong> <a href="https://dl.acm.org/doi/full/10.1145/3702652.3744219"><strong>The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</strong></a>
+<strong>[ICER '25]</strong> <a href="https://dl.acm.org/doi/pdf/10.1145/3702652.3744219"><strong>The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</strong></a>
 Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <strong>Yunhan Qiao</strong>, Brian Mulanda Wise, Christopher Sanchez
 <em>In: Proceedings of the 2025 ACM Conference on International Computing Education Research (ICER '25)</em>
 <br>
