@@ -17,17 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Prof. Christopher Hundhausen](https://engineering.oregonstate.edu/people/christopher-hundhausen) at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by [Dr. Robert Likamwa](https://search.asu.edu/profile/3025945). My research interests include human-AI interaction, specifically how GenAI coding assistance tools (e.g., GitHub Copilot) can improve the efficiency of software engineering tasks without sacrificing code comprehension.
+My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Dr. Christopher Hundhausen](https://engineering.oregonstate.edu/people/christopher-hundhausen) at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by [Dr. Robert Likamwa](https://search.asu.edu/profile/3025945). My research interests include human-AI interaction, specifically how GenAI coding assistance tools (e.g., GitHub Copilot) can improve the efficiency of software engineering tasks without sacrificing code comprehension.
 
 
 # 🔥 News
 
 
 # 📝 Publications 
-<strong>[ICPC '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Comprehension-Performance Gap in GenAI-Assisted Brownfield Programming: A Replication and Extension</strong></a>
+<strong>[CSEE&T '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Comprehension-Performance Gap in GenAI-Assisted Brownfield Programming: A Replication and Extension</strong></a>
 <strong>Yunhan Qiao<strong>, Christopher Hundhausen, Summit Haque, Md Istiak Hossain Shihab
-<em>In: Proceedings of the 48th International Conference on Program Comprehension</em>
-<em>(Under Review)</em>
+<em>In: The 38th International Conference on Software Engineering Education and Training</em>
+<em>(Under Submission)</em>
 <br>
 <br>
 <strong>[ICSE-SEET '26]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Focusing Sprint Retrospectives Towards Equality of Contributions in Team Projects</strong></a>
@@ -36,7 +36,7 @@ Ahsun Tariq, Phillip Conard, Andrew Yu, Christopher Hundhausen, <strong>Yunhan Q
 <em>(Under Review)</em>
 <br>
 <br>
-<strong>[TOCE]</strong> <a href="https://arxiv.org/pdf/2510.17894"><strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a>
+<strong>[TOCE]</strong> <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a>
 <strong>Yunhan Qiao</strong>, Md Istiak Hossain Shihab, Christopher Hundhausen
 <em>In: ACM Transactions on Computing Education (TOCE)</em>
 <br>
