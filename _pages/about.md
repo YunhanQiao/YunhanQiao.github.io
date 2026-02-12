@@ -25,7 +25,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Dr. Christopher Hu
 
 # 📝 Publications 
 <strong>[CSEE&T '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Comprehension-Performance Gap in GenAI-Assisted Brownfield Programming: A Replication and Extension</strong></a>
-<strong>Yunhan Qiao<strong>, Christopher Hundhausen, Summit Haque, Md Istiak Hossain Shihab
+<strong>Yunhan Qiao<strong>, Md Istiak Hossain Shihab, Summit Haque, Christopher Hundhausen
 <em>In: The 38th International Conference on Software Engineering Education and Training</em>
 <em>(Under Submission)</em>
 <br>
