@@ -30,7 +30,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Dr. Christopher Hu
 <em>(Under Submission)</em>
 <br>
 <br>
-<strong>[ICSE-SEET '26]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects<img width="468" height="23" alt="image" src="https://github.com/user-attachments/assets/6885700c-fa77-40d8-a7a8-990dd72bc153" />
+<strong>[TOCE]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects
 </strong></a>
 Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, Sanjay Chandrasekaran, Yunhan Qiao, Summit Haque
 <em>In: ACM Transactions on Computing Education (TOCE)</em>
