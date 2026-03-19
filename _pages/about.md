@@ -24,10 +24,10 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by [Dr. Christopher Hu
 
 
 # 📝 Publications 
-<strong>[CSEE&T '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Comprehension-Performance Gap in GenAI-Assisted Brownfield Programming: A Replication and Extension</strong></a>
-<strong>Yunhan Qiao<strong>, Md Istiak Hossain Shihab, Summit Haque, Christopher Hundhausen
-<em>In: The 38th International Conference on Software Engineering Education and Training</em>
-<em>(Under Submission)</em>
+<strong>[CSEE&T '26]</strong> <a href="https://arxiv.org/pdf/2511.02922"><strong>Code Comprehension with GitHub Copilot: Performance Gains, Comprehension Trade-offs, and Behavioral Predictors in Brownfield Programming</strong></a>
+<strong>Yunhan Qiao</strong>, Md Istiak Hossain Shihab, Summit Haque, Christopher Hundhausen
+<em>In: The 38th International Conference on Software Engineering Education and Training (CSEE&T 2026)</em>
+<em>(Under Review)</em>
 <br>
 <br>
 <strong>[TOCE]</strong> <a href="YOUR_PAPER_LINK_HERE"><strong>Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects
