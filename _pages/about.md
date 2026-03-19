@@ -64,30 +64,79 @@ Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziy
 
 # 💼 Projects
 
-<div style="display: flex; gap: 24px; align-items: flex-start; margin-bottom: 1.5em;">
-  <div style="flex: 0 0 38%;">
-    <img src="/images/workflow.png" alt="Copilot Comprehension Workflow" style="width: 100%; border-radius: 6px;">
+My dissertation investigates code comprehension in GenAI-assisted development across four research questions:
+
+---
+
+**RQ1: How does GenAI support code comprehension? (Systematic Literature Review)**
+
+<div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
+  I conducted a Systematic Literature Review (SLR) of 31 studies (2022–2024) to categorize how GenAI assistants support code comprehension. The review identifies five categories of approaches: explaining software, enhancing pedagogy, enriching documentation, improving readability, and visualizing software. A key finding is that the literature focuses almost entirely on how GenAI <em>enhances</em> comprehension outcomes, largely overlooking how GenAI might <em>circumvent</em> traditional comprehension and sense-making processes.
+  <div style="margin-top: 10px;">
+    <strong>📄 Related Paper</strong>
+    <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
+      <li>
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a><br>
+        <em>ACM Transactions on Computing Education (TOCE) 2026 — <strong>Published</strong></em>
+      </li>
+    </ul>
+  </div>
+</div>
+
+---
+
+**RQ2: How does GenAI assistance affect students' code comprehension in brownfield tasks?**
+
+<div style="display: flex; gap: 20px; align-items: flex-start; border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
+  <div style="flex: 0 0 40%;">
+    <img src="/images/RQ2-Final.png" alt="RQ2 Behavioral Analysis" style="width: 100%; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <strong>Program Comprehension in GenAI-Assisted Brownfield Development</strong>
-    <p style="margin-top: 0.5em;">
-      GenAI tools like GitHub Copilot significantly boost developer productivity, but their impact on code comprehension in brownfield programming remains unclear. This project investigates whether Copilot helps or hinders developers' understanding of legacy codebases, identifies behavioral strategies that predict comprehension outcomes, and translates expert best practices into pedagogical interventions for CS students.
-    </p>
-    <div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 12px; background: #fafafa;">
+    I conducted a within-subjects study with 15 graduate CS students completing brownfield feature implementation tasks with and without GitHub Copilot. Despite significant performance gains (50.7% faster, 71.4% more tests passed), participants showed no overall comprehension improvement (p = 0.59) — a <em>comprehension-performance decoupling</em>. Behavioral analysis revealed the <strong>verification loop</strong> (WC→VC→WC) as the strongest predictor of comprehension (p &lt; 0.001, r = 0.96), distinguishing <em>Active Integrators</em> from <em>Passive Delegators</em>.
+    <div style="margin-top: 10px;">
       <strong>📄 Related Papers</strong>
-      <ul style="margin: 8px 0 0 0; padding-left: 1.2em;">
+      <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
         <li>
           <a href="https://arxiv.org/pdf/2511.02922"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>Code Comprehension with GitHub Copilot: Performance Gains, Comprehension Trade-offs, and Behavioral Predictors in Brownfield Programming</strong></a><br>
-          <em>CSEE&T 2026 — Under Review</em>
-        </li>
-        <li style="margin-top: 6px;">
-          <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension</strong></a><br>
-          <em>ACM Transactions on Computing Education (TOCE) — Published</em>
+          <em>CSEE&T 2026 — <strong>Under Review</strong></em>
         </li>
         <li style="margin-top: 6px;">
           <a href="https://dl.acm.org/doi/pdf/10.1145/3702652.3744219"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</strong></a><br>
-          <em>ICER 2025 — Published</em>
+          <em>ICER 2025 — <strong>Published</strong></em>
         </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+
+**RQ3: What are expert best practices for comprehending legacy codebases with GenAI?**
+
+<div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
+  This study explores how expert MERN-stack developers (≥3 years of experience, daily GenAI use) comprehend and navigate a large-scale legacy codebase (~10× the size used in RQ2) using GitHub Copilot. Unlike the student study, this asks <em>how</em> experts maintain codebase understanding: what strategies they use to comprehend AI-generated code, how they hold system-level specifications in mind when evaluating AI suggestions, and when they choose to verify deeply versus accept output shallowly. These expert practices will serve as the empirical grounding for the pedagogical intervention in RQ4.
+  <div style="margin-top: 10px;">
+    <strong>📄 Related Papers</strong>
+    <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
+      <li><em>Venue TBD — <strong>Work in Progress</strong></em></li>
+    </ul>
+  </div>
+</div>
+
+---
+
+**RQ4: How can expert best practices be translated into a pedagogical intervention?**
+
+<div style="display: flex; gap: 20px; align-items: flex-start; border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
+  <div style="flex: 0 0 40%;">
+    <img src="/images/RQ4.png" alt="RQ4 Eye-Tracking Agent Workflow" style="width: 100%; border-radius: 4px;">
+  </div>
+  <div style="flex: 1;">
+    Building on the expert strategies identified in RQ3, this chapter designs and evaluates an AI-agent scaffolding intervention to train computing students to comprehend legacy codebases when using GenAI. The agent is implemented as a VSCode extension that continuously monitors gaze data, classifies the developer's comprehension level (Global / Component / Local), compares it against expert behavioral patterns from RQ3, and delivers deferred scaffolding nudges at natural breakpoints — without interrupting the developer's flow.
+    <div style="margin-top: 10px;">
+      <strong>📄 Related Papers</strong>
+      <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
+        <li><em>Venue TBD — <strong>Planned</strong></em></li>
       </ul>
     </div>
   </div>
