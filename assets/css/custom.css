@@ -3,6 +3,79 @@
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
+   Hover dynamics
+   -------------------------------------------------------------------------- */
+
+.pub-entry:hover {
+  background: #f0f7ff;
+  border-left: 3px solid #2563eb;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+  transform: translateX(4px);
+}
+
+/* RQ cards: lift + deepen border on hover */
+.rq-card:hover {
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+  transform: translateY(-3px);
+  border-color: #93c5fd;
+}
+
+/* RQ card header: accent on hover */
+.rq-card:hover .rq-card-header {
+  background: #eff6ff;
+  transition: background 0.25s ease;
+}
+
+/* RQ image: slight zoom on hover */
+.rq-image img {
+  transition: transform 0.3s ease;
+}
+
+.rq-card:hover .rq-image img {
+  transform: scale(1.03);
+}
+
+/* Paper links in RQ cards: underline slide-in */
+.rq-papers li a {
+  background-image: linear-gradient(#2563eb, #2563eb);
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.25s ease, color 0.2s ease;
+}
+
+.rq-papers li a:hover {
+  background-size: 100% 1.5px;
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+/* Pub title links: same underline effect */
+.pub-title a {
+  background-image: linear-gradient(#2563eb, #2563eb);
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.25s ease, color 0.2s ease;
+}
+
+.pub-title a:hover {
+  background-size: 100% 1.5px;
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+/* Status badges: subtle glow on hover */
+.pub-status {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.pub-status:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* --------------------------------------------------------------------------
    Section headings
    -------------------------------------------------------------------------- */
 .section-heading {
@@ -37,8 +110,11 @@
 .pub-entry {
   display: flex;
   gap: 14px;
-  padding: 14px 0;
+  padding: 14px 12px;
   border-bottom: 1px solid #e2e8f0;
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-left-color 0.2s ease;
 }
 
 .pub-entry:last-child {
@@ -154,6 +230,7 @@
   overflow: hidden;
   background: #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
 }
 
 .rq-card-header {
