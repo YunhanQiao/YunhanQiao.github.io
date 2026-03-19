@@ -102,14 +102,14 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
 
 # 💼 Research Projects
 
-<p>My dissertation investigates code comprehension in GenAI-assisted development across four progressive research questions.</p>
+<p>My dissertation investigates code comprehension in GenAI-assisted development across four progressive research projects.</p>
 
 <div class="rq-grid">
 
   <!-- RQ1 -->
   <div class="rq-card">
     <div class="rq-card-header">
-      <span class="rq-label">RQ1</span>
+      <span class="rq-label">Project 1</span>
       <h3>How does GenAI support code comprehension? — Systematic Literature Review</h3>
       <span class="pub-status published" style="margin-left:auto;">Published</span>
     </div>
@@ -138,7 +138,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
   <!-- RQ2 -->
   <div class="rq-card">
     <div class="rq-card-header">
-      <span class="rq-label">RQ2</span>
+      <span class="rq-label">Project 2</span>
       <h3>How does GenAI assistance affect students' code comprehension in brownfield tasks?</h3>
       <span class="pub-status under-review" style="margin-left:auto;">Under Review</span>
     </div>
@@ -174,7 +174,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
   <!-- RQ3 -->
   <div class="rq-card">
     <div class="rq-card-header">
-      <span class="rq-label">RQ3</span>
+      <span class="rq-label">Project 3</span>
       <h3>What are expert best practices for comprehending legacy codebases with GenAI?</h3>
       <span class="pub-status in-progress" style="margin-left:auto;">Work in Progress</span>
     </div>
@@ -199,7 +199,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
   <!-- RQ4 -->
   <div class="rq-card">
     <div class="rq-card-header">
-      <span class="rq-label">RQ4</span>
+      <span class="rq-label">Project 4</span>
       <h3>How can expert best practices be translated into a pedagogical intervention?</h3>
       <span class="pub-status planned" style="margin-left:auto;">Planned</span>
     </div>
