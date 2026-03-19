@@ -48,7 +48,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
     </div>
     <div class="pub-right">
       <div class="pub-title"><a href="#">Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects</a></div>
-      <div class="pub-authors">Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, Sanjay Chandrasekaran, Yunhan Qiao, Summit Haque</div>
+      <div class="pub-authors">Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, Sanjay Chandrasekaran, <strong>Yunhan Qiao</strong>, Summit Haque</div>
       <div class="pub-venue">ACM Transactions on Computing Education (TOCE), 2026</div>
     </div>
   </li>
@@ -72,7 +72,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
     </div>
     <div class="pub-right">
       <div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3702652.3744219">The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</a></div>
-      <div class="pub-authors">Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <strong>Yunhan Qiao</strong>, Brian Mulanda Wise, Christopher Sanchez</div>
+      <div class="pub-authors">Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <strong>Yunhan Qiao</strong>, Brian Mulanda Wise</div>
       <div class="pub-venue">Proceedings of the 2025 ACM Conference on International Computing Education Research (ICER '25)</div>
     </div>
   </li>
