@@ -44,12 +44,12 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
   <li class="pub-entry">
     <div class="pub-left">
       <span class="pub-badge">TOCE</span>
-      <span class="pub-status under-review">Under Review</span>
+      <span class="pub-status published">Published</span>
     </div>
     <div class="pub-right">
       <div class="pub-title"><a href="#">Using SlackBot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects</a></div>
       <div class="pub-authors">Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, Sanjay Chandrasekaran, Yunhan Qiao, Summit Haque</div>
-      <div class="pub-venue">ACM Transactions on Computing Education (TOCE)</div>
+      <div class="pub-venue">ACM Transactions on Computing Education (TOCE), 2026</div>
     </div>
   </li>
 
