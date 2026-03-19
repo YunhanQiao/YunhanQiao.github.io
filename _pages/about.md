@@ -70,16 +70,21 @@ My dissertation investigates code comprehension in GenAI-assisted development ac
 
 **RQ1: How does GenAI support code comprehension? (Systematic Literature Review)**
 
-<div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
-  I conducted a Systematic Literature Review (SLR) of 31 studies (2022–2024) to categorize how GenAI assistants support code comprehension. The review identifies five categories of approaches: explaining software, enhancing pedagogy, enriching documentation, improving readability, and visualizing software. A key finding is that the literature focuses almost entirely on how GenAI <em>enhances</em> comprehension outcomes, largely overlooking how GenAI might <em>circumvent</em> traditional comprehension and sense-making processes.
-  <div style="margin-top: 10px;">
-    <strong>📄 Related Paper</strong>
-    <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
-      <li>
-        <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a><br>
-        <em>ACM Transactions on Computing Education (TOCE) 2026 — <strong>Published</strong></em>
-      </li>
-    </ul>
+<div style="display: flex; gap: 20px; align-items: flex-start; border: 1px solid #e0e0e0; border-radius: 6px; padding: 14px; background: #fafafa; margin-bottom: 1.2em;">
+  <div style="flex: 0 0 40%;">
+    <img src="/images/RQ1-taxonomy.png" alt="Taxonomy of GenAI Approaches for Code Comprehension" style="width: 100%; border-radius: 4px;">
+  </div>
+  <div style="flex: 1;">
+    I conducted a Systematic Literature Review (SLR) of 31 studies (2022–2024) to categorize how GenAI assistants support code comprehension. The review identifies five categories of approaches: explaining software, enhancing pedagogy, enriching documentation, improving readability, and visualizing software. A key finding is that the literature focuses almost entirely on how GenAI <em>enhances</em> comprehension outcomes, largely overlooking how GenAI might <em>circumvent</em> traditional comprehension and sense-making processes.
+    <div style="margin-top: 10px;">
+      <strong>📄 Related Paper</strong>
+      <ul style="margin: 6px 0 0 0; padding-left: 1.2em;">
+        <li>
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education and Practice</strong></a><br>
+          <em>ACM Transactions on Computing Education (TOCE) 2026 — <strong>Published</strong></em>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
