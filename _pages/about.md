@@ -115,7 +115,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
     </div>
     <div class="rq-card-body">
       <div class="rq-image">
-        <img src="/images/RQ1-taxonomy.png" alt="Taxonomy of GenAI Approaches for Code Comprehension">
+        <img src="/images/RQ1-taxonomy-v2.png" alt="Taxonomy of GenAI Approaches for Code Comprehension">
       </div>
       <div class="rq-content">
         <p>I conducted a Systematic Literature Review (SLR) of 31 studies (2022–2024) to categorize how GenAI assistants support code comprehension. The review identifies five categories of approaches: explaining software, enhancing pedagogy, enriching documentation, improving readability, and visualizing software. A key finding is that the literature focuses almost entirely on how GenAI <em>enhances</em> comprehension outcomes, largely overlooking how GenAI might <em>circumvent</em> traditional comprehension and sense-making processes.</p>
