@@ -63,12 +63,35 @@ Manish Motwani, Aakash Kulkarni, <strong>Yunhan Qiao<strong>, Matthew Davis, Ziy
 - *2021 - 2023*, M.S. in Software Engineering, Arizona State University, Tempe, Arizona.
 
 # 💼 Projects
-**Program Comprehension of Integration Tasks using Copilot:**
-![Workflow](/images/workflow.png)
-Generative AI(GenAI) offers new opportunities to support programming in various ways. For example, GitHub Copilot has been shown to enhance productivity in software development significantly (e.g., solving basic programming tasks, enhancing code readability, etc.). While GitHub Copilot has proven effective at solving basic programming tasks, it is unclear whether Copilot can be successfully leveraged to help developers with code comprehension in brownfield programming. Given that novices struggle with AI-generated code due to poorly crafted prompts, this can increase their frustration levels. We speculate that they would also struggle to construct prompts to help them understand existing code. This raises two key research questions:
-- *Research Question 1:* Do GenAI coding assistance tools affect novices' code comprehension in brownfield programming tasks?
-- *Research Question 2:* What strategies do experts use to leverage GenAI coding assistance to help them understand an existing code base?
-- *Research Question 3:* Can we extract the best practices from experts and apply those practices for computing students/novice programmers to help them onboard the legacy codebases?
+
+<div style="display: flex; gap: 24px; align-items: flex-start; margin-bottom: 1.5em;">
+  <div style="flex: 0 0 38%;">
+    <img src="/images/workflow.png" alt="Copilot Comprehension Workflow" style="width: 100%; border-radius: 6px;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Program Comprehension in GenAI-Assisted Brownfield Development</strong>
+    <p style="margin-top: 0.5em;">
+      GenAI tools like GitHub Copilot significantly boost developer productivity, but their impact on code comprehension in brownfield programming remains unclear. This project investigates whether Copilot helps or hinders developers' understanding of legacy codebases, identifies behavioral strategies that predict comprehension outcomes, and translates expert best practices into pedagogical interventions for CS students.
+    </p>
+    <div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 12px; background: #fafafa;">
+      <strong>📄 Related Papers</strong>
+      <ul style="margin: 8px 0 0 0; padding-left: 1.2em;">
+        <li>
+          <a href="https://arxiv.org/pdf/2511.02922"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>Code Comprehension with GitHub Copilot: Performance Gains, Comprehension Trade-offs, and Behavioral Predictors in Brownfield Programming</strong></a><br>
+          <em>CSEE&T 2026 — Under Review</em>
+        </li>
+        <li style="margin-top: 6px;">
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3785366"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension</strong></a><br>
+          <em>ACM Transactions on Computing Education (TOCE) — Published</em>
+        </li>
+        <li style="margin-top: 6px;">
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3702652.3744219"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Programming Tasks</strong></a><br>
+          <em>ICER 2025 — Published</em>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
 # 💻 Internships
