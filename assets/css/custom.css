@@ -1,22 +1,22 @@
 /* ==========================================================================
    Academic Personal Website — Custom Styles
-   OSU Color Scheme: Oregon State Orange #D73F09
+   Clean Academic Blue Color Scheme
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
    CSS variables
    -------------------------------------------------------------------------- */
 :root {
-  --osu-orange:       #D73F09;
-  --osu-orange-dark:  #a83008;
-  --osu-orange-light: #fdf3ef;
-  --osu-orange-mid:   #f8c9b7;
-  --charcoal:         #1a1a1a;
-  --charcoal-soft:    #3a3a3a;
-  --slate:            #5a5a6e;
-  --border:           #e8e0db;
-  --bg-warm:          #fdf8f5;
-  --bg-card:          #fffcfa;
+  --primary:       #2563eb;
+  --primary-dark:  #1d4ed8;
+  --primary-light: #eff6ff;
+  --primary-mid:   #bfdbfe;
+  --charcoal:      #1e293b;
+  --charcoal-soft: #334155;
+  --slate:         #64748b;
+  --border:        #e2e8f0;
+  --bg-warm:       #f8fafc;
+  --bg-card:       #ffffff;
 }
 
 /* --------------------------------------------------------------------------
@@ -26,7 +26,7 @@
   font-size: 1.25em;
   font-weight: 700;
   color: var(--charcoal);
-  border-bottom: 2px solid var(--osu-orange);
+  border-bottom: 2px solid var(--primary);
   padding-bottom: 6px;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -66,9 +66,9 @@
 }
 
 .pub-entry:hover {
-  background: var(--osu-orange-light);
-  border-left: 3px solid var(--osu-orange);
-  box-shadow: 0 2px 8px rgba(215, 63, 9, 0.10);
+  background: var(--primary-light);
+  border-left: 3px solid var(--primary);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.10);
   transform: translateX(4px);
 }
 
@@ -89,9 +89,9 @@
   letter-spacing: 0.03em;
   text-align: center;
   white-space: nowrap;
-  background: var(--osu-orange-light);
-  color: var(--osu-orange-dark);
-  border: 1px solid var(--osu-orange-mid);
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-mid);
 }
 
 .pub-status {
@@ -123,9 +123,9 @@
 }
 
 .pub-status.in-progress {
-  background: var(--osu-orange-light);
-  color: var(--osu-orange-dark);
-  border: 1px solid var(--osu-orange-mid);
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-mid);
 }
 
 .pub-status.planned {
@@ -148,7 +148,7 @@
 .pub-title a {
   color: var(--charcoal);
   text-decoration: none;
-  background-image: linear-gradient(var(--osu-orange), var(--osu-orange));
+  background-image: linear-gradient(var(--primary), var(--primary));
   background-size: 0% 1.5px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -156,7 +156,7 @@
 }
 
 .pub-title a:hover {
-  color: var(--osu-orange-dark);
+  color: var(--primary-dark);
   background-size: 100% 1.5px;
   text-decoration: none;
 }
@@ -197,9 +197,9 @@
 }
 
 .rq-card:hover {
-  box-shadow: 0 8px 24px rgba(215, 63, 9, 0.13);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.13);
   transform: translateY(-3px);
-  border-color: var(--osu-orange-mid);
+  border-color: var(--primary-mid);
 }
 
 .rq-card-header {
@@ -213,7 +213,7 @@
 }
 
 .rq-card:hover .rq-card-header {
-  background: var(--osu-orange-light);
+  background: var(--primary-light);
 }
 
 .rq-label {
@@ -222,7 +222,7 @@
   border-radius: 5px;
   font-size: 0.75em;
   font-weight: 700;
-  background: var(--osu-orange);
+  background: var(--primary);
   color: #fff;
   letter-spacing: 0.04em;
 }
@@ -282,7 +282,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--osu-orange);
+  color: var(--primary);
   margin-bottom: 6px;
 }
 
@@ -297,7 +297,7 @@
   align-items: flex-start;
   gap: 8px;
   padding: 5px 0;
-  border-bottom: 1px solid #f5ede8;
+  border-bottom: 1px solid #edf2f7;
   font-size: 0.85em;
 }
 
@@ -306,7 +306,7 @@
 }
 
 .rq-papers li i {
-  color: var(--osu-orange);
+  color: var(--primary);
   margin-top: 2px;
   flex-shrink: 0;
 }
@@ -316,10 +316,10 @@
 }
 
 .rq-papers li a {
-  color: var(--osu-orange-dark);
+  color: var(--primary-dark);
   font-weight: 500;
   text-decoration: none;
-  background-image: linear-gradient(var(--osu-orange), var(--osu-orange));
+  background-image: linear-gradient(var(--primary), var(--primary));
   background-size: 0% 1.5px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -328,7 +328,7 @@
 
 .rq-papers li a:hover {
   background-size: 100% 1.5px;
-  color: var(--osu-orange);
+  color: var(--primary);
   text-decoration: none;
 }
 
