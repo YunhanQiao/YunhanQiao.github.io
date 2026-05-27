@@ -204,7 +204,10 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
       <h3>What are expert best practices for comprehending legacy codebases with GenAI?</h3>
       <span class="pub-status in-progress" style="margin-left:auto;">Work in Progress</span>
     </div>
-    <div class="rq-card-body no-image">
+    <div class="rq-card-body">
+      <div class="rq-image">
+        <img src="/images/RQ3-procedure.png" alt="RQ3 Expert Study Procedure: Recruitment, Experimental Procedure, and Completion Phases">
+      </div>
       <div class="rq-content">
         <p>This study explores how expert MERN-stack developers (≥3 years of experience, daily GenAI use) comprehend and navigate a large-scale legacy codebase (~10× the size used in RQ2) using GitHub Copilot. Unlike the student study, this asks <em>how</em> experts maintain codebase understanding: what strategies they use to comprehend AI-generated code, how they hold system-level specifications in mind when evaluating AI suggestions, and when they choose to verify deeply versus accept output shallowly. These expert practices will serve as the empirical grounding for the pedagogical intervention in RQ4.</p>
         <div class="rq-papers">
