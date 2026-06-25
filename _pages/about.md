@@ -23,6 +23,8 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
 
 
 # 🔥 News
+- *Jun 2026:* Invited to serve on the Program Committee for the 58th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2027).
+- *Jun 22, 2026:* Passed my Ph.D. preliminary examination at Oregon State University.
 
 
 # 📝 Publications
