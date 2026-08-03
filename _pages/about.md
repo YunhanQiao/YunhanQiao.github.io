@@ -2,7 +2,8 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
+show_masthead: false
 redirect_from:
   - /about/
   - /about.html
@@ -17,17 +18,38 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<p class="about-intro">
-My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://engineering.oregonstate.edu/people/christopher-hundhausen">Dr. Christopher Hundhausen</a> at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by <a href="https://search.asu.edu/profile/3025945">Dr. Robert Likamwa</a>. My research interests include human-AI interaction, specifically how GenAI coding assistance tools (e.g., GitHub Copilot) can improve the efficiency of software engineering tasks without sacrificing code comprehension.
-</p>
+<header class="profile-hero">
+  <img class="profile-photo" src="/{{ site.author.avatar }}" alt="Portrait of Yunhan Qiao">
+  <div class="profile-summary">
+    <p class="profile-eyebrow">Researcher · Educator · Software Engineer</p>
+    <h1 class="profile-name">Yunhan Qiao</h1>
+    <p class="profile-role">Ph.D. Candidate · Computer Science · Human–AI Interaction</p>
+    <nav class="profile-links" aria-label="Contact and academic profiles">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="{{ site.author.cv }}">CV</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+    </nav>
+    <div class="research-focus">
+      <span class="focus-dot" aria-hidden="true"></span>
+      <span><strong>Research focus</strong> GenAI-assisted software development and code comprehension</span>
+    </div>
+  </div>
+</header>
+
+<div class="about-intro">
+  <p>My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://engineering.oregonstate.edu/people/christopher-hundhausen">Dr. Christopher Hundhausen</a> at Oregon State University. Before that, I earned my M.S. in Software Engineering from Arizona State University, supervised by <a href="https://search.asu.edu/profile/3025945">Dr. Robert Likamwa</a>.</p>
+  <p>My research investigates how GenAI coding assistance tools, including GitHub Copilot, can improve the efficiency of software engineering tasks without sacrificing code comprehension.</p>
+</div>
 
 
-# 🔥 News
+# News
 - *Jun 2026:* Invited to serve on the Program Committee for the 58th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2027).
 - *Jun 22, 2026:* Passed my Ph.D. preliminary examination at Oregon State University.
 
 
-# 📝 Publications
+# Publications
 
 <ul class="pub-list">
 
@@ -118,17 +140,17 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
 </ul>
 
 
-# 🧑‍🏫 Research & Teaching Experience
+# Research & Teaching Experience
 - *Sep 2023 &ndash; Present:* Graduate Research Assistant, Seal Lab, Oregon State University. Empirical studies of GenAI tools for code comprehension and CS education; designs and runs controlled experiments and mixed-methods analysis (qualitative + quantitative).
 - *2024 &ndash; 2025:* Graduate Teaching Assistant, Oregon State University. CS 362: Software Engineering II.
 
-# 📖 Education
+# Education
 - *Sep 2023 &ndash; Jun 2027 (expected)*, Ph.D. in Computer Science, Oregon State University, Corvallis, Oregon. Advisor: Dr. Christopher Hundhausen.
 - *Aug 2021 &ndash; May 2023*, M.S. in Software Engineering, Arizona State University, Tempe, Arizona. Advisor: Dr. Robert LiKamWa. Thesis: *Networked System for Volumetric Athletic Coaching in Augmented Reality*.
 - *Sep 2016 &ndash; Jun 2020*, B.E. in Software Engineering, Guangxi University of Science and Technology, Liuzhou, China.
 - *Feb 2017 &ndash; Jun 2020*, B.E. in Information Technology, Southern Cross University, Gold Coast, Australia.
 
-# 💼 Research Projects
+# Research Projects
 
 <p>My dissertation investigates code comprehension in GenAI-assisted development across four progressive research projects.</p>
 
@@ -260,7 +282,7 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
 </div>
 
 
-# 🛠 Skills
+# Skills
 - **Research Methods:** Mixed-methods empirical research, controlled experiments, semi-structured interviews, thematic analysis, survey design, behavioral log analysis, statistical analysis.
 - **Programming:** Python, Java, C.
 - **Web Development:** HTML, CSS, React, Express, Flask.
@@ -269,5 +291,5 @@ My name is Yunhan Qiao. I am a Ph.D. candidate supervised by <a href="https://en
 - **Tooling:** Git / GitHub, LaTeX.
 - **Languages:** English (fluent), Mandarin Chinese (native).
 
-# 💻 Internships
+# Internships
 - *Aug 2020 &ndash; Nov 2020*, Mocha Software Company, Nanjing, China.

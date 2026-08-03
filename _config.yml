@@ -27,7 +27,7 @@ author:
   location         : "Corvallis, Oregon"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=yct_kOcAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=yct_kOcAAAAJ"
   email            : "qiaoy@oregonstate.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/YunhanQiao"
+  github           : "YunhanQiao"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  LinkedIn         : "www.linkedin.com/in/yqiao18"
+  linkedin         : "yqiao18"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
