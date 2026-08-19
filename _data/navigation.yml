@@ -12,11 +12,8 @@ main:
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Projects"
-    url: "/#-projects"
+  - title: "Education"
+    url: "/#-education"
 
   - title: "Internships"
     url: "/#-internships"
