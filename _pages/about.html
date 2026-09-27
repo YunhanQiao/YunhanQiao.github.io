@@ -1,0 +1,240 @@
+---
+permalink: /
+layout: home
+title: ""
+excerpt: ""
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<nav class="navbar">
+  <a class="nav-logo" href="#top">
+    <img src="/images/yq-logo.svg" alt="YQ logo">
+    <span>Yunhan Qiao</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#publications"><span class="full-label">Publications</span><span class="short-label">Pubs</span></a></li>
+    <li><a href="{{ site.author.cv }}">CV</a></li>
+    <li><a href="mailto:{{ site.author.email }}"><span class="full-label">Email to Contact</span><span class="short-label">Contact</span></a></li>
+  </ul>
+</nav>
+
+<div class="page">
+
+<aside class="sidebar">
+  <img class="profile-photo" src="/{{ site.author.avatar }}" alt="Portrait of Yunhan Qiao">
+  <h1 class="profile-name">Yunhan Qiao</h1>
+  <p class="profile-role">Ph.D. Candidate in Computer Science</p>
+  <p class="profile-info">qiaoy [at] oregonstate [dot] edu</p>
+  <p class="profile-info">School of Electrical Engineering<br>and Computer Science<br>Oregon State University<br>Corvallis, OR</p>
+  <p class="profile-links">
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a> ·
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a> ·
+    <a href="{{ site.author.cv }}">CV</a>
+  </p>
+
+  <section class="news" id="news">
+    <h2 class="section-title">News</h2>
+    <div class="news-item"><span class="news-date">06/2026</span><span>Invited to serve on the Program Committee for <a href="https://sigcse2027.sigcse.org/">SIGCSE TS 2027</a>.</span></div>
+    <div class="news-item"><span class="news-date">06/2026</span><span>Passed my Ph.D. preliminary examination at Oregon State University!</span></div>
+    <div class="news-item"><span class="news-date">02/2026</span><span>Our systematic literature review on GenAI assistants for code comprehension is published in <a href="https://doi.org/10.1145/3785366">ACM TOCE</a>.</span></div>
+    <div class="news-item"><span class="news-date">08/2025</span><span>Our paper on GitHub Copilot in brownfield coding tasks was presented at <a href="https://doi.org/10.1145/3702652.3744219">ICER 2025</a> in Charlottesville, VA.</span></div>
+  </section>
+</aside>
+
+<main>
+
+<section class="section" id="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    Hi! I am a Ph.D. candidate in Computer Science at <a href="https://engineering.oregonstate.edu/EECS">Oregon State University</a>, advised by
+    <a href="https://engineering.oregonstate.edu/people/christopher-hundhausen">Dr. Christopher Hundhausen</a> in the Software Engineering Education Assessment and Analytics Lab.
+    GenAI assistants and coding agents can now write and change code for us, but someone still has to understand it.
+    My research sits where two questions meet: <span class="tag">Human–AI Programming</span> and <span class="tag teal">Code Comprehension</span>.
+  </p>
+  <p>
+    I study what developers and students do when they work with tools like GitHub Copilot on unfamiliar, existing codebases (so-called <em>brownfield</em> tasks),
+    and whether faster, more correct work also means deeper understanding. I combine controlled experiments, screen-recorded behavioral analysis,
+    prompt coding, and interviews, and I use what I find to shape how computing education teaches and assesses GenAI-assisted software development.
+    My work appears in ACM TOCE, ICER, and IEEE AIxSE.
+  </p>
+  <p>
+    Before Oregon State, I earned my M.S. in Software Engineering from <a href="https://www.asu.edu/">Arizona State University</a>, working with
+    <a href="https://search.asu.edu/profile/3025945">Dr. Robert LiKamWa</a>.
+  </p>
+</section>
+
+<section class="section" id="research">
+  <h2 class="section-title">Research Interests</h2>
+  <p>
+    <strong>Related Keywords</strong>: Human–AI Programming, Coding Agents, Program Comprehension, Computing Education,
+    Software Engineering Education, Brownfield Development, Empirical Software Engineering, Mixed Methods
+  </p>
+  <p>GenAI is changing <em>how</em> software gets built and <em>what</em> programmers need to know. My work is organized around three connected questions:</p>
+  <ul class="rq-list">
+    <li><em>Perform vs. Understand</em>: When GitHub Copilot makes programmers faster and more correct in unfamiliar code, does their understanding of that code keep up, and which behaviors separate those who understand from those who don't?</li>
+    <li><em>Say, Do, Understand</em>: How do developers communicate with coding agents: what they write, what they do while the agent works, and what they can explain afterwards?</li>
+    <li><em>Teach &amp; Assess</em>: How should computing education teach GenAI-assisted development so that students verify and explain AI-generated code, and how should we assess correctness and comprehension separately?</li>
+  </ul>
+</section>
+
+<section class="section" id="publications">
+  <h2 class="section-title">Publications</h2>
+  <p class="section-subtitle">See my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a> for the full list and citations.</p>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/saner2027.png?v=2" alt="The Say, Do, Understand workflow: Capture, Prepare, Analyze, Integrate, and Interpret stages" loading="lazy"></div>
+      <span class="paper-link muted">PDF Coming Soon</span>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">Say, Do, Understand: A Workflow for Analyzing Human–AI Communication in Programming</div>
+      <div class="paper-authors"><span class="me">Yunhan Qiao</span>, Summit Haque, Christopher Hundhausen</div>
+      <div class="paper-venue">SANER 2027: IEEE International Conference on Software Analysis, Evolution and Reengineering <span class="status review">Under Review</span></div>
+      <p class="paper-highlight">
+        We present Say, Do, Understand, an end-to-end workflow for analyzing what developers write to a coding agent, what they do while it works, and what they can explain afterwards.
+        It has five stages (Capture, Prepare, Analyze, Integrate, Interpret) and three instruments: a prompt codebook, a coding scheme for screen-recorded activity, and rubrics for explaining the process and the solution.
+        Applied to ten experienced developers using GitHub Copilot on an unfamiliar codebase, it produced four personas; for two developers, task performance and understanding split apart.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/toce-copilot-comprehension.png" alt="State-transition networks of programming activity for higher- and lower-comprehension participants" loading="lazy"></div>
+      <a class="paper-link" href="https://arxiv.org/pdf/2511.02922">📄 View Preprint</a>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">Faster but Not Wiser: GitHub Copilot Decouples Programming Performance from Code Comprehension in Brownfield Tasks</div>
+      <div class="paper-authors"><span class="me">Yunhan Qiao</span>, Md Istiak Hossain Shihab, Summit Haque, Christopher Hundhausen</div>
+      <div class="paper-venue">ACM Transactions on Computing Education (TOCE) <span class="status review">Under Review</span></div>
+      <p class="paper-highlight">
+        In a within-subjects study, 15 CS graduate students implemented features in an unfamiliar codebase with and without Copilot.
+        Copilot significantly improved performance, but overall comprehension did not improve (<i>p</i> = 0.59), and performance gains were not associated with comprehension gains.
+        Higher-comprehension participants engaged in verification loops, performing write-then-view transitions 4.7&times; more often (<i>p</i> = 0.001).
+        We argue for assessing correctness and comprehension separately and teaching students to inspect and explain AI-generated code.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/teaching.svg" alt="Illustration of teaching GenAI-assisted development" loading="lazy"></div>
+      <span class="paper-link muted">PDF Coming Soon</span>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">Teaching GenAI-Assisted Software Development in Computing Education: An Experimental Study</div>
+      <div class="paper-authors"><span class="me">Yunhan Qiao</span>, Christopher Hundhausen, Md Istiak Hossain Shihab</div>
+      <div class="paper-venue">SIGCSE TS 2027: The 58th ACM Technical Symposium on Computer Science Education <span class="status review">Under Review</span></div>
+      <p class="paper-highlight">
+        An experimental study of how to teach students to develop software with GenAI assistants in computing courses.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/toce2026-slr.png" alt="Taxonomy of approaches to enhancing code comprehension with GenAI" loading="lazy"></div>
+      <a class="paper-link" href="https://dl.acm.org/doi/pdf/10.1145/3785366">📄 View PDF</a>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education Research and Practice</div>
+      <div class="paper-authors"><span class="me">Yunhan Qiao</span>, Md Istiak Hossain Shihab, Christopher Hundhausen</div>
+      <div class="paper-venue">ACM Transactions on Computing Education (TOCE), 26(2), Article 24, 2026 <span class="status published">Published</span></div>
+      <p class="paper-highlight">
+        We review 31 studies (2022–2024) that use GenAI to support code comprehension. We classify the approaches and tools, the methods used to study them, and the evidence for their effectiveness.
+        GenAI assistants often give inaccurate or unclear explanations, and novices struggle to write effective prompts. We discuss implications for computing education research and practice and outline directions for future work.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/slackbot.svg" alt="Illustration of Slackbot reflection prompts in a team" loading="lazy"></div>
+      <span class="paper-link muted">PDF Coming Soon</span>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">Using Slackbot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects</div>
+      <div class="paper-authors">Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, S. Chandrasekaran, <span class="me">Yunhan Qiao</span>, Summit Haque</div>
+      <div class="paper-venue">ACM Transactions on Computing Education (TOCE), 2026 <span class="status published">Published</span></div>
+      <p class="paper-highlight">
+        We examine whether Slackbot-prompted reflections can promote participation and reduce contribution inequalities among students in team software development projects.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/icer2025.png" alt="Network of programming activity transitions with Copilot" loading="lazy"></div>
+      <a class="paper-link" href="https://dl.acm.org/doi/pdf/10.1145/3702652.3744219">📄 View PDF</a>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Coding Tasks</div>
+      <div class="paper-authors">Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, <span class="me">Yunhan Qiao</span>, Brian Wise Mulanda</div>
+      <div class="paper-venue">ICER 2025: ACM Conference on International Computing Education Research <span class="status published">Published</span></div>
+      <p class="paper-highlight">
+        In a controlled experiment, 10 undergraduates added features to a legacy web application with and without Copilot.
+        With Copilot, they finished 34.9% faster and made 50.0% more solution progress, while spending less time writing code by hand and searching the web.
+        In interviews, students worried about not understanding how or why Copilot's suggestions worked, which points to a need for pedagogy that encourages reflection on GenAI suggestions.
+      </p>
+    </div>
+  </article>
+
+  <article class="paper">
+    <div class="paper-left">
+      <div class="paper-thumb"><img src="/images/pubs/fuzzing.svg" alt="Illustration of LLM-guided differential fuzzing across platforms" loading="lazy"></div>
+      <a class="paper-link" href="https://mmotwani.com/publications/publication_sources/Motwani25aixse.pdf">📄 View PDF</a>
+    </div>
+    <div class="paper-right">
+      <div class="paper-title">LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications</div>
+      <div class="paper-authors">Manish Motwani, Aakash Kulkarni, <span class="me">Yunhan Qiao</span>, Matthew Davis, Ziyan Chen</div>
+      <div class="paper-venue">AIxSE 2025: IEEE International Conference on AI x Software Engineering <span class="status published">Published</span></div>
+      <p class="paper-highlight">
+        We use large language models to guide differential fuzzing, running the same scientific application on different platforms and comparing the results to find platform-specific bugs.
+      </p>
+    </div>
+  </article>
+</section>
+
+<section class="section" id="experience">
+  <h2 class="section-title">Research &amp; Teaching Experience</h2>
+  <ul class="timeline">
+    <li><span class="when">2023 – Present</span><span class="what"><strong>Graduate Research Assistant, Oregon State University</strong><span>Empirical studies of GenAI coding assistants for code comprehension and CS education: controlled experiments, behavioral log analysis, and mixed-methods research.</span></span></li>
+    <li><span class="when">2024 – 2025</span><span class="what"><strong>Graduate Teaching Assistant, Oregon State University</strong><span>CS 362: Software Engineering II.</span></span></li>
+    <li><span class="when">Aug – Nov 2020</span><span class="what"><strong>Software Engineering Intern, Mocha Software</strong><span>Nanjing, China.</span></span></li>
+  </ul>
+</section>
+
+<section class="section" id="education">
+  <h2 class="section-title">Education</h2>
+  <ul class="timeline">
+    <li><span class="when">2023 – 2027</span><span class="what"><strong>Ph.D., Computer Science (expected)</strong><span>Oregon State University</span></span></li>
+    <li><span class="when">2021 – 2023</span><span class="what"><strong>M.S., Software Engineering</strong><span>Arizona State University</span></span></li>
+    <li><span class="when">2017 – 2020</span><span class="what"><strong>B.E., Information Technology</strong><span>Southern Cross University</span></span></li>
+    <li><span class="when">2016 – 2020</span><span class="what"><strong>B.E., Software Engineering</strong><span>Guangxi University of Science and Technology</span></span></li>
+  </ul>
+</section>
+
+<section class="section" id="skills">
+  <h2 class="section-title">Skills</h2>
+  <ul class="skills">
+    <li><strong>Research Methods:</strong> Controlled experiments, mixed methods, semi-structured interviews, thematic analysis, prompt and behavioral coding, survey design, statistical analysis.</li>
+    <li><strong>Programming:</strong> Python, Java, C · <strong>Web:</strong> HTML, CSS, React, Express, Flask · <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB.</li>
+    <li><strong>GenAI Tools:</strong> Claude Code, OpenAI Codex, Google Gemini, GitHub Copilot · <strong>Tooling:</strong> Git/GitHub, LaTeX.</li>
+    <li><strong>Languages:</strong> English (fluent), Mandarin Chinese (native).</li>
+  </ul>
+</section>
+
+</main>
+</div>
+
+<footer>
+  © Yunhan Qiao {{ site.time | date: "%Y" }} ·
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a> ·
+  <a href="https://github.com/{{ site.author.github }}">GitHub</a> ·
+  <a href="mailto:{{ site.author.email }}">Email</a>
+</footer>

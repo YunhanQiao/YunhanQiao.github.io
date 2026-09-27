@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" font-family="Nunito, sans-serif">
+  <rect width="320" height="220" fill="#fcf9f7"/>
+  <rect x="24" y="22" width="180" height="120" rx="10" fill="#1f1b18"/>
+  <g font-family="monospace" font-size="10">
+    <text x="38" y="46" fill="#d7b8a3">// 1. read the task</text>
+    <text x="38" y="64" fill="#9fc6c2">prompt → review</text>
+    <text x="38" y="82" fill="#9fc6c2">       → verify → explain</text>
+    <text x="38" y="104" fill="#f6eee8">def add_feature():</text>
+    <text x="50" y="122" fill="#f6eee8">...</text>
+  </g>
+  <rect x="220" y="22" width="78" height="54" rx="10" fill="#e8f2f1" stroke="#cfe3e1"/><text x="259" y="46" text-anchor="middle" font-size="11" font-weight="700" fill="#3e7f7a">GenAI</text><text x="259" y="62" text-anchor="middle" font-size="10" fill="#3e7f7a">assistant</text>
+  <path d="M204 60 H220" stroke="#3e7f7a" stroke-width="2"/>
+  <g fill="#a4603f"><circle cx="60" cy="176" r="12"/><circle cx="114" cy="176" r="12"/><circle cx="168" cy="176" r="12"/></g>
+  <g fill="#d7b8a3"><rect x="44" y="190" width="32" height="18" rx="8"/><rect x="98" y="190" width="32" height="18" rx="8"/><rect x="152" y="190" width="32" height="18" rx="8"/></g>
+  <rect x="220" y="96" width="78" height="112" rx="10" fill="#f6eee8" stroke="#eadcd2"/>
+  <text x="259" y="118" text-anchor="middle" font-size="10" font-weight="700" fill="#85482c">instruction</text>
+  <g fill="#a4603f"><rect x="236" y="178" width="14" height="22" rx="2" opacity=".55"/><rect x="262" y="140" width="14" height="60" rx="2"/></g>
+  <text x="243" y="172" text-anchor="middle" font-size="9" fill="#7a6f68">pre</text><text x="269" y="134" text-anchor="middle" font-size="9" fill="#7a6f68">post</text>
+</svg>
