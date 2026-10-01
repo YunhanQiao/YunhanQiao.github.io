@@ -1,0 +1,238 @@
+%-------------------------------------------------------------------------------
+% Curriculum Vitae — Yunhan Qiao
+% Build: pdflatex Yunhan_CV.tex  (output copied to /files/Yunhan_CV.pdf)
+%-------------------------------------------------------------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\definecolor{linkblue}{HTML}{1F6FB2}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue}
+
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\evensidemargin}{-0.45in}
+\addtolength{\textwidth}{0.9in}
+\addtolength{\topmargin}{-0.55in}
+\addtolength{\textheight}{1.1in}
+
+% Section heading: small caps + full-width rule
+\renewcommand{\section}[1]{%
+  \vspace{7pt}%
+  {\large\scshape #1}\par\vspace{-5pt}%
+  \noindent\rule{\textwidth}{0.4pt}\par\vspace{-3pt}%
+}
+
+% Entry macros
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2}\vspace{-2pt}}}
+\newcommand{\resumeBullet}[1]{\item\small{#1\vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{%
+  \vspace{-1pt}\item
+  \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-5pt}%
+}
+% #1 title, #2 supervisor, #3 subtitle, #4 dates
+\newcommand{\resumeSubheadingSup}[4]{%
+  \vspace{-1pt}\item
+  \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\small #4} \\
+    \textit{\small #3} & {\footnotesize supervisor:} {\small #2} \\
+  \end{tabular*}\vspace{-5pt}%
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.25in, label=$\circ$, topsep=2pt, itemsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+% Publication list
+\newcommand{\pubListStart}{\begin{itemize}[leftmargin=0.32in, label=\textbullet, itemsep=3pt, topsep=2pt]}
+\newcommand{\pubListEnd}{\end{itemize}}
+\newcommand{\pubgroup}[1]{\vspace{2pt}{\small\textit{#1}}\par\vspace{-2pt}}
+\newcommand{\me}{\textbf{Yunhan Qiao}}
+\newcommand{\plink}[2]{\,{\footnotesize\href{#1}{[\textsf{#2}]}}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Header
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\LARGE\textbf{Yunhan Qiao}} & Email: \href{mailto:qiaoy@oregonstate.edu}{qiaoy@oregonstate.edu} \\
+  \href{https://yunhanqiao.github.io/}{https://yunhanqiao.github.io/} & Alt.\ email: \href{mailto:JohnsonYqiao@gmail.com}{JohnsonYqiao@gmail.com} \\
+  Ph.D.\ Candidate, Computer Science, Oregon State University & Mobile: +1 (480) 791-7396 \\
+  & {\small\href{https://scholar.google.com/citations?user=yct_kOcAAAAJ}{Google Scholar}
+     \,$\cdot$\, \href{https://github.com/YunhanQiao}{GitHub}
+     \,$\cdot$\, \href{https://www.linkedin.com/in/yqiao18}{LinkedIn}} \\
+\end{tabular*}
+
+%-------------------------------------------------------------------------------
+\section{Research Interests}
+\small{My research sits at the intersection of empirical software engineering, code comprehension, and
+human--AI collaboration. I study how students and experienced developers work with GenAI coding assistants
+and agents (e.g., GitHub Copilot, Cursor) in realistic \emph{brownfield} codebases, and whether faster, more
+correct work also means deeper understanding. I combine controlled experiments, screen-recorded behavioral
+analysis, prompt coding, EEG, and interviews to inform how computing education teaches and assesses
+GenAI-assisted development and how future AI coding agents and IDEs should be designed.}
+
+%-------------------------------------------------------------------------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Ph.D.\ in Computer Science, School of EECS}{Oregon State University, Corvallis, OR}
+    {Ph.D.\ Candidate (passed preliminary exam, Jun 2026)}{Sep 2023 -- Jun 2027 (expected)}
+    \resumeItemListStart
+      \resumeItem{Advisor}{Dr.\ Christopher Hundhausen at the \href{https://seal.oregonstate.edu/}{Software Engineering Education Assessment and Analytics (SEAL) Lab}}
+      \resumeItem{Collaborator}{Dr.\ Anita Sarma (EEG study of GenAI-assisted programming)}
+      \resumeItem{Research Areas}{Empirical Software Engineering, Code Comprehension, Computing Education, Human--AI Interaction}
+    \resumeItemListEnd
+  \resumeSubheading
+    {M.S.\ in Software Engineering}{Arizona State University, Tempe, AZ}
+    {Thesis track}{Aug 2021 -- May 2023}
+    \resumeItemListStart
+      \resumeItem{Advisor}{Dr.\ Robert LiKamWa}
+      \resumeItem{Thesis}{Networked System for Volumetric Athletic Coaching in Augmented Reality}
+    \resumeItemListEnd
+  \resumeSubheading
+    {B.E.\ in Software Engineering \& B.E.\ in Information Technology (Dual Degree)}{Liuzhou, China}
+    {Guangxi University of Science and Technology \& Southern Cross University}{Sep 2016 -- Jun 2020}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------------------------------------------
+\section{Publications}
+\pubgroup{Journal Articles \& Conference Papers}
+\pubListStart
+  \item \small{\me, Md Istiak Hossain Shihab, and Christopher Hundhausen.
+    \textbf{A Systematic Literature Review of the Use of GenAI Assistants for Code Comprehension: Implications for Computing Education Research and Practice.}
+    \textit{\textbf{TOCE}: ACM Transactions on Computing Education}, 26(2), Article 24, 1--33, 2026.
+    \plink{https://dl.acm.org/doi/pdf/10.1145/3785366}{PDF}\plink{https://doi.org/10.1145/3785366}{DOI}}
+  \item \small{Ahsun Tariq, Phillip Conrad, Christopher Hundhausen, S.\ Chandrasekaran, \me, and Summit Haque.
+    \textbf{Using Slackbot-Prompted Reflections to Promote Participation and Reduce Contribution Inequalities in Team Software Development Projects.}
+    \textit{\textbf{TOCE}: ACM Transactions on Computing Education}, 2026.}
+  \item \small{Md Istiak Hossain Shihab, Christopher Hundhausen, Ahsun Tariq, Summit Haque, \me, and Brian Wise Mulanda.
+    \textbf{The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Coding Tasks.}
+    \textit{\textbf{ICER'25}: Proceedings of the 2025 ACM Conference on International Computing Education Research}, Vol.\ 1, 407--420, Aug.\ 2025.
+    \plink{https://dl.acm.org/doi/pdf/10.1145/3702652.3744219}{PDF}\plink{https://doi.org/10.1145/3702652.3744219}{DOI}}
+  \item \small{Manish Motwani, Aakash Kulkarni, \me, Matthew Davis, and Ziyan Chen.
+    \textbf{LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications.}
+    \textit{\textbf{AIxSE'25}: IEEE International Conference on AI x Software Engineering}, 2025.
+    \plink{https://mmotwani.com/publications/publication_sources/Motwani25aixse.pdf}{PDF}}
+\pubListEnd
+
+\pubgroup{Under Review}
+\pubListStart
+  \item \small{\me, Md Istiak Hossain Shihab, Summit Haque, and Christopher Hundhausen.
+    \textbf{Faster but Not Wiser: GitHub Copilot Decouples Programming Performance from Code Comprehension in Brownfield Tasks.}
+    \textit{\textbf{TOCE}: ACM Transactions on Computing Education}, under review.
+    \plink{https://arxiv.org/abs/2511.02922}{arXiv}}
+  \item \small{\me, Summit Haque, and Christopher Hundhausen.
+    \textbf{Beyond the Prompt: Linking What Developers Ask, Do, and Understand with Coding Agents.}
+    \textit{\textbf{SANER'27}: IEEE International Conference on Software Analysis, Evolution and Reengineering}, under review.
+    \plink{https://arxiv.org/abs/2609.33712}{arXiv}}
+\pubListEnd
+
+\pubgroup{Under Submission}
+\pubListStart
+  \item \small{O.\ Schutz, \me, F.\ Moussaoui, R.\ Choudhuri, and A.\ Sarma.
+    \textbf{Heart and Mind in the Loop: Why We Vibe When We Work with AI.}
+    \textit{\textbf{CHASE'27}: International Conference on Cooperative and Human Aspects of Software Engineering}, under submission.}
+\pubListEnd
+
+%-------------------------------------------------------------------------------
+\section{Research Experience}
+\resumeSubHeadingListStart
+  \resumeSubheadingSup
+    {Brain Activity of Vibe Coding on Developers: An EEG Study}{Dr.\ Anita Sarma}
+    {Controlled EEG study of GenAI assistants (Cursor, GitHub Copilot) in brownfield tasks}{Feb 2026 -- current}
+    \resumeItemListStart
+      \resumeBullet{Co-designed a controlled EEG study on an 88K-LOC MERN-stack codebase; ran in-person sessions with 30 developers, collecting neurophysiological data during vibe coding.}
+      \resumeBullet{Applied Information Foraging Theory to model shifts in information seeking under the Ask and Agent modes of GenAI, and related code comprehension, cognitive effort, and task performance.}
+    \resumeItemListEnd
+  \resumeSubheadingSup
+    {How Expert Developers Use GitHub Copilot in Brownfield Tasks}{Dr.\ Christopher Hundhausen}
+    {SEAL Lab; Beyond the Prompt (SANER'27, under review)}{Jul 2025 -- current}
+    \resumeItemListStart
+      \resumeBullet{Designed a mixed-methods study of 10 expert developers on an 88K-LOC MERN-stack codebase; collected and analyzed 30+ hours of sessions via AWS WorkSpaces.}
+      \resumeBullet{Built the \emph{Say, Do, Understand} workflow and a behavioral framework combining Information Foraging Theory and state machines; identified patterns of AI reliance, verification, and information seeking that shape task quality and codebase understanding.}
+    \resumeItemListEnd
+  \resumeSubheadingSup
+    {GitHub Copilot's Effects on Students in Brownfield Programming Tasks}{Dr.\ Christopher Hundhausen}
+    {SEAL Lab; ICER'25; Faster but Not Wiser (TOCE, under review)}{Mar 2024 -- Jun 2025}
+    \resumeItemListStart
+      \resumeBullet{Designed a controlled experiment with GitHub Classroom on a 3K-LOC JavaScript codebase and a multidimensional comprehension assessment (system objective, implementation, debugging, reverse engineering, open-ended reasoning).}
+      \resumeBullet{With 15 students, found a 50.7\% reduction in completion time and a 71.4\% increase in correctness with Copilot, but a comprehension--performance trade-off; active verification of AI-generated code correlated with stronger comprehension.}
+    \resumeItemListEnd
+  \resumeSubheadingSup
+    {Systematic Literature Review of GenAI for Code Comprehension}{Dr.\ Christopher Hundhausen}
+    {SEAL Lab; TOCE 2026}{Sep 2024 -- Jun 2025}
+    \resumeItemListStart
+      \resumeBullet{Analyzed 31 papers via thematic analysis and synthesized five GenAI approaches (e.g., software explanation, readability enhancement), benchmarking their effectiveness and evaluation methods.}
+    \resumeItemListEnd
+  \resumeSubheadingSup
+    {Reflection and Equitable Participation in Team Software Projects}{Dr.\ Christopher Hundhausen}
+    {SEAL Lab; TOCE 2026}{Feb 2025 -- Oct 2025}
+    \resumeItemListStart
+      \resumeBullet{Conducted qualitative analysis evaluating a Slackbot intervention designed to improve contribution equity in software teams.}
+    \resumeItemListEnd
+  \resumeSubheadingSup
+    {LLM-Guided Differential Fuzzing for Scientific Software}{Dr.\ Manish Motwani}
+    {AIxSE'25}{Jul 2023 -- Sep 2024}
+    \resumeItemListStart
+      \resumeBullet{Developed a Python LLM-guided seed-input generator; ran experiments on an HPC cluster and detected 8 of 20 heterogeneous bugs in LAMMPS.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------------------------------------------------------------
+\section{Teaching Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Graduate Teaching Assistant, School of EECS}{Oregon State University}
+    {Undergraduate software engineering courses}{2024 -- current}
+    \resumeItemListStart
+      \resumeItem{CS 362}{Software Engineering II}
+      \resumeItem{CS 461}{Senior Software Engineering Project}
+      \resumeItem{CS 467}{Online Capstone Project}
+      \resumeItem{CS 492}{Mobile Software Development}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------------------------------------------------------------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Engineering Intern, Mocha Software}{Nanjing, China}
+    {Software development}{Aug 2020 -- Nov 2020}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------------------------------------------
+\section{Professional Service}
+\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
+  \resumeItem{Program Committee}{SIGCSE TS 2027, the 58th ACM Technical Symposium on Computer Science Education}
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+\section{Skills \& Coursework}
+\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
+  \resumeItem{Research Methods}{Controlled experiments, mixed methods, EEG studies, behavioral \& log analysis, prompt coding, interviews, thematic analysis, survey design (Qualtrics), statistical analysis}
+  \resumeItem{Programming}{Python, Java, C, JavaScript, HTML, CSS, SQL, Bash}
+  \resumeItem{Frameworks \& Tools}{React, Express, Flask, MongoDB, PostgreSQL, Git, AWS, Docker, \LaTeX; Claude Code, GitHub Copilot, Cursor, OpenAI Codex}
+  \resumeItem{Coursework}{Machine Learning; NLP with Deep Learning; Software Engineering for ML; Program Analysis; Algorithms \& Data Structures; Human--Computer Interaction; Field Studies in SE \& HCI; Methods of Data Analysis}
+  \resumeItem{Languages}{English (fluent), Mandarin Chinese (native)}
+\end{itemize}
+
+\end{document}

@@ -18,7 +18,7 @@ redirect_from:
     <li><a href="#about">About</a></li>
     <li><a href="#news">News</a></li>
     <li><a href="#publications"><span class="full-label">Publications</span><span class="short-label">Pubs</span></a></li>
-    <li><a href="{{ site.author.cv }}">CV</a></li>
+    <li><a href="{{ site.author.cv }}?v={{ site.time | date: "%s" }}">CV</a></li>
     <li><a href="mailto:{{ site.author.email }}"><span class="full-label">Email to Contact</span><span class="short-label">Contact</span></a></li>
   </ul>
 </nav>
@@ -39,7 +39,7 @@ redirect_from:
     <a href="{{ site.author.googlescholar }}">Google Scholar</a> ·
     <a href="https://github.com/{{ site.author.github }}">GitHub</a> ·
     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a> ·
-    <a href="{{ site.author.cv }}">CV</a>
+    <a href="{{ site.author.cv }}?v={{ site.time | date: "%s" }}">CV</a>
   </p>
 
   <section class="news" id="news">
