@@ -53,6 +53,13 @@
   \end{tabular*}\vspace{-5pt}%
 }
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+% Single-line entry with right-aligned date: #1 title, #2 detail, #3 date
+\newcommand{\resumeDated}[3]{%
+  \item\small
+  \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1}: #2 & \textit{\small #3} \\
+  \end{tabular*}\vspace{-2pt}%
+}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -183,8 +190,8 @@ GenAI-assisted development and how future AI coding agents and IDEs should be de
 %-------------------------------------------------------------------------------
 \section{Awards \& Scholarships}
 \begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
-  \resumeItem{EECS Graduate Scholarship}{Oregon State University; 2023 -- current}
-  \resumeItem{Merit Award}{Guangxi University of Science and Technology (GXUST); 2018}
+  \resumeDated{EECS Graduate Scholarship}{Oregon State University}{2023 -- current}
+  \resumeDated{Merit Award}{Guangxi University of Science and Technology (GXUST)}{2018}
 \end{itemize}
 
 %-------------------------------------------------------------------------------
