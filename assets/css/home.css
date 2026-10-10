@@ -284,6 +284,13 @@ strong { font-weight: 700; color: var(--ink); }
 .status.published { background: var(--teal-soft); color: var(--teal); }
 .status.review { background: #fbf1e3; color: #9a5d13; }
 
+.paper-honor {
+  margin: -0.3rem 0 0.6rem;
+  color: var(--beaver);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .paper-highlight { margin: 0; font-size: 0.82rem; line-height: 1.65; font-weight: 300; color: var(--ink-soft); }
 
 /* Timeline lists (experience, education) */
