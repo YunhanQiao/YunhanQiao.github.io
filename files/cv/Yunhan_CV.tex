@@ -63,14 +63,17 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, label={}, labelwidth=0pt, labelsep=0pt, itemsep=3pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.25in, label=$\circ$, topsep=2pt, itemsep=0pt]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, itemindent=0pt, label={}, labelwidth=0pt, labelsep=0pt, topsep=2pt, itemsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
 
 % Publication list
 \newcommand{\pubListStart}{\begin{itemize}[leftmargin=0.32in, label=\textbullet, itemsep=3pt, topsep=2pt]}
 \newcommand{\pubListEnd}{\end{itemize}}
+% Plain (unbulleted) list for short sections
+\newcommand{\plainListStart}{\begin{itemize}[leftmargin=0pt, label={}, labelwidth=0pt, labelsep=0pt, itemsep=0pt, topsep=2pt]}
+\newcommand{\plainListEnd}{\end{itemize}}
 \newcommand{\pubgroup}[1]{\vspace{2pt}{\small\textit{#1}}\par\vspace{-2pt}}
 \newcommand{\me}{\textbf{Yunhan Qiao}}
 \newcommand{\plink}[2]{\,{\footnotesize\href{#1}{[\textsf{#2}]}}}
@@ -171,10 +174,7 @@ GenAI-assisted development and how future AI coding agents and IDEs should be de
     {Graduate Teaching Assistant, School of EECS}{Oregon State University}
     {Undergraduate software engineering courses}{2024 -- current}
     \resumeItemListStart
-      \resumeItem{CS 362}{Software Engineering II}
-      \resumeItem{CS 461}{Senior Software Engineering Project}
-      \resumeItem{CS 467}{Online Capstone Project}
-      \resumeItem{CS 492}{Mobile Software Development}
+      \resumeItem{Courses}{CS 362 Software Engineering II; CS 461 Senior Software Engineering Project; CS 467 Online Capstone Project; CS 492 Mobile Software Development}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -191,32 +191,31 @@ GenAI-assisted development and how future AI coding agents and IDEs should be de
 
 %-------------------------------------------------------------------------------
 \section{Awards \& Scholarships}
-\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
+\plainListStart
   \resumeDated{EECS Graduate Scholarship}{Oregon State University}{2023 -- current}
   \resumeDated{Merit Award}{Guangxi University of Science and Technology}{2018}
-\end{itemize}
+\plainListEnd
 
 %-------------------------------------------------------------------------------
 \section{Academic Service}
-\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
+\plainListStart
   \resumeItem{Reviewer}{SIGCSE TS 2027, the 58th ACM Technical Symposium on Computer Science Education}
   \resumeItem{Presenter}{SIGCSE TS 2027, journal-first presentation}
-\end{itemize}
+\plainListEnd
 
 %-------------------------------------------------------------------------------
 \section{Skills \& Coursework}
-\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
+\plainListStart
   \resumeItem{Research Methods}{Qualitative Analysis, Quantitative Analysis, Interviews, Survey Design}
   \resumeItem{Programming}{Python, Java, C, JavaScript, HTML, CSS, SQL, Bash}
   \resumeItem{Frameworks \& Tools}{React, Express, Flask, MongoDB, PostgreSQL, Git, AWS, Docker, \LaTeX, Figma; Claude Code, GitHub Copilot, Cursor, OpenAI Codex}
   \resumeItem{Coursework}{Machine Learning; NLP with Deep Learning; Software Engineering for ML; Program Analysis; Algorithms \& Data Structures; Human--Computer Interaction; Field Studies in SE \& HCI; Methods of Data Analysis}
-\end{itemize}
+\plainListEnd
 
 %-------------------------------------------------------------------------------
 \section{Languages}
-\begin{itemize}[leftmargin=*, label=\textbullet, itemsep=0pt, topsep=2pt]
-  \resumeItem{English}{Fluent}
-  \resumeItem{Mandarin Chinese}{Native}
-\end{itemize}
+\plainListStart
+  \item\small{English (Fluent), Mandarin Chinese (Native)}
+\plainListEnd
 
 \end{document}
