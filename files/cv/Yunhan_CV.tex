@@ -53,6 +53,13 @@
   \end{tabular*}\vspace{-5pt}%
 }
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+% Plain single-line entry with right-aligned date: #1 text, #2 date
+\newcommand{\resumeDatedPlain}[2]{%
+  \item\small
+  \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+    #1 & \textit{\small #2} \\
+  \end{tabular*}\vspace{-2pt}%
+}
 % Single-line entry with right-aligned date: #1 title, #2 detail, #3 date
 \newcommand{\resumeDated}[3]{%
   \item\small
@@ -191,9 +198,9 @@ GenAI-assisted development and how future AI coding agents and IDEs should be de
 %-------------------------------------------------------------------------------
 \section{Awards \& Scholarships}
 \plainListStart
-  \resumeDated{Scholarly Presentation Award}{Oregon State University}{2026}
-  \resumeDated{EECS Graduate Scholarship}{Oregon State University}{2023 -- current}
-  \resumeDated{Merit Award}{Guangxi University of Science and Technology}{2018}
+  \resumeDatedPlain{Oregon State University Scholarly Presentation Award}{2026}
+  \resumeDatedPlain{Oregon State University EECS Graduate Scholarship}{2023 -- current}
+  \resumeDatedPlain{Guangxi University of Science and Technology Merit Award}{2018}
 \plainListEnd
 
 %-------------------------------------------------------------------------------
