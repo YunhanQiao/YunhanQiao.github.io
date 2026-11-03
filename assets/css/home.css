@@ -434,7 +434,6 @@ strong { font-weight: 700; color: var(--ink); }
   line-height: 1.4;
   color: var(--ink);
 }
-.eq-note { font-style: italic; font-size: 0.76rem; }
 .collab-summary-text { margin: 0.25rem 0 0.45rem; font-size: 0.82rem; line-height: 1.6; font-weight: 300; color: var(--ink-soft); }
 .collab-links { display: flex; gap: 0.4rem; }
 .collab-links a {
