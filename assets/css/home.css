@@ -224,7 +224,7 @@ strong { font-weight: 700; color: var(--ink); }
 .paper:hover { box-shadow: var(--card-shadow-hover); transform: translateY(-1px); }
 
 .paper-left {
-  flex: 0 0 260px;
+  flex: 0 0 40%;
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--line);
@@ -239,7 +239,7 @@ strong { font-weight: 700; color: var(--ink); }
   padding: 14px;
   background: #fcf9f7;
 }
-.paper-thumb img { width: 100%; height: 170px; object-fit: contain; display: block; border-radius: 4px; mix-blend-mode: multiply; }
+.paper-thumb img { width: 100%; height: auto; max-height: 300px; object-fit: contain; display: block; border-radius: 4px; mix-blend-mode: multiply; }
 
 .paper-link {
   display: flex;
@@ -400,15 +400,15 @@ strong { font-weight: 700; color: var(--ink); }
 
 .collab-item {
   display: grid;
-  grid-template-columns: 132px minmax(0, 1fr);
+  grid-template-columns: 210px minmax(0, 1fr);
   gap: 1.1rem;
   padding: 1rem 0;
   border-bottom: 1px dashed #cfe3e1;
 }
 .collab-item:last-child { border-bottom: 0; }
 .collab-thumb {
-  width: 132px;
-  height: 99px;
+  width: 210px;
+  height: 140px;
   object-fit: contain;
   padding: 6px;
   border: 1px solid var(--line);
@@ -452,7 +452,7 @@ strong { font-weight: 700; color: var(--ink); }
   .collab-summary { padding: 0.85rem 0.9rem; gap: 0.7rem; }
   .collab-list { padding: 0.2rem 0.9rem 0.4rem; }
   .collab-item { grid-template-columns: 1fr; gap: 0.6rem; }
-  .collab-thumb { width: 100%; height: 150px; }
+  .collab-thumb { width: 100%; height: 190px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -506,7 +506,7 @@ footer {
   .profile-name { margin-top: 1.1rem; }
   .paper { flex-direction: column; }
   .paper-left { flex-basis: auto; border-right: 0; border-bottom: 1px solid var(--line); }
-  .paper-thumb img { height: 170px; }
+  .paper-thumb img { max-height: 240px; }
   .timeline li { grid-template-columns: 1fr; gap: 0.1rem; }
 }
 
@@ -628,3 +628,9 @@ footer { position: relative; padding: 0; border-top: 0; margin-top: 2rem; }
   .photo-beaver { animation: none; }
   .nav-links a::after, .paper::before, .paper-thumb img { transition: none; }
 }
+
+/* Paper figures open full size */
+.fig-link { display: block; width: 100%; cursor: zoom-in; }
+.collab-item > .fig-link { width: 210px; }
+.collab-thumb { background: #fff; }
+@media (max-width: 720px) { .collab-item > .fig-link { width: 100%; } }
