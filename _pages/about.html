@@ -18,11 +18,8 @@ redirect_from:
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="navbar">
-  <nav class="nav-inner" aria-label="Primary">
-    <a class="nav-logo" href="#top">
-      <img src="/images/yq-logo.svg" width="26" height="26" alt="">
-      <span>Yunhan Qiao</span>
-    </a>
+  <nav class="nav-pill" aria-label="Primary">
+    <a class="nav-logo" href="#home">yunhan.qiao</a>
     <ul class="nav-links">
       <li><a href="#home" data-tab-link="home">Home</a></li>
       <li><a href="#research" data-tab-link="research">Research</a></li>
@@ -36,45 +33,83 @@ redirect_from:
 
 <main id="main">
 
-<section class="hero" id="home" data-tab="home" aria-labelledby="name">
-  <div class="container hero-inner">
-    <div class="hero-photo">
-      <img src="/{{ site.author.avatar }}" alt="Portrait of Yunhan Qiao" width="180" height="180">
-      <img class="hero-beaver" src="/images/beaver.svg" width="44" height="44" alt="" aria-hidden="true">
+<section class="bento" id="home" data-tab="home" aria-labelledby="name">
+  <div class="container bento-grid">
+    <div class="tile tile-hero">
+      <div class="hero-top">
+        <p class="chips"><span class="chip">Ph.D. Candidate</span><span class="chip">Oregon State University</span><span class="chip chip-peach">SE × HCI</span></p>
+        <h1 id="name">Yunhan Qiao</h1>
+        <p class="hero-tagline">I study how developers work with, and understand, code from GenAI coding assistants and agents.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#publications">Read my papers</a>
+        <a class="btn btn-soft" href="{{ cv_url }}">Download CV</a>
+      </div>
     </div>
-    <p class="eyebrow">Ph.D. Candidate · Computer Science · Oregon State University</p>
-    <h1 id="name">Yunhan Qiao</h1>
-    <p class="hero-tagline">Understanding code in the age of AI&nbsp;coding&nbsp;agents.</p>
-    <p class="hero-sub">Software Engineering × Human–Computer Interaction</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#publications">Read my papers</a>
-      <a class="btn btn-secondary" href="{{ cv_url }}">Download CV</a>
-    </div>
-    <p class="icon-row">{{ social_icons }}</p>
-  </div>
-</section>
 
-<section class="band band-about" id="about" data-tab="home" aria-labelledby="about-h">
-  <div class="container prose">
-    <h2 class="section-title" id="about-h">About</h2>
-    <p class="lead">
-      GenAI assistants and coding agents can now write and change code for us, but someone still has to understand it.
-    </p>
-    <p>
-      I am a Ph.D. candidate in Computer Science at <a href="https://engineering.oregonstate.edu/EECS">Oregon State University</a>, advised by
-      <a href="https://engineering.oregonstate.edu/about/people/christopher-hundhausen">Dr. Christopher Hundhausen</a> in the <a href="https://seal.oregonstate.edu/">SEAL Lab</a>.
-      My research lies at the intersection of Software Engineering and Human–Computer Interaction.
-    </p>
-    <p>
-      I study how developers work with GenAI coding assistants and agents, such as GitHub Copilot and Cursor, on unfamiliar, existing codebases (so-called <em>brownfield</em> tasks):
-      how they communicate with AI, how they verify and integrate AI-generated code, and whether faster, more correct work also means deeper code comprehension.
-      Through controlled experiments, screen-recorded behavioral analysis, prompt analysis, and interviews, I derive design implications for future AI coding agents and developer tools.
-      My work appears in ACM TOCE, ICER, and IEEE AIxSE.
-    </p>
-    <p>
-      Before Oregon State, I earned my M.S. in Software Engineering from <a href="https://www.asu.edu/">Arizona State University</a>, working with
-      <a href="https://search.asu.edu/profile/3025945">Dr. Robert LiKamWa</a>.
-    </p>
+    <div class="tile tile-photo">
+      <img src="/{{ site.author.avatar }}" alt="Portrait of Yunhan Qiao" width="400" height="560">
+      <img class="photo-beaver" src="/images/beaver.svg" width="44" height="44" alt="" aria-hidden="true">
+    </div>
+
+    <a class="tile tile-dark tile-latest" href="#news">
+      <span class="tile-label">Latest · Nov 2026</span>
+      <span class="latest-text">Received the Oregon State University Scholarly Presentation Award</span>
+      <span class="tile-more">All news →</span>
+    </a>
+
+    <div class="tile tile-about">
+      <h2 class="tile-title">About</h2>
+      <p>
+        I am a Ph.D. candidate in Computer Science at <a href="https://engineering.oregonstate.edu/EECS">Oregon State University</a>, advised by
+        <a href="https://engineering.oregonstate.edu/about/people/christopher-hundhausen">Dr. Christopher Hundhausen</a> in the <a href="https://seal.oregonstate.edu/">SEAL Lab</a>.
+        GenAI assistants and coding agents can now write and change code for us, but someone still has to understand it.
+      </p>
+      <p>
+        I study how developers work with tools such as GitHub Copilot and Cursor on unfamiliar, existing codebases (<em>brownfield</em> tasks):
+        how they communicate with AI, how they verify and integrate AI-generated code, and whether faster, more correct work also means deeper code comprehension.
+        My work appears in ACM TOCE, ICER, and IEEE AIxSE.
+      </p>
+      <p>
+        Before Oregon State, I earned my M.S. in Software Engineering from <a href="https://www.asu.edu/">Arizona State University</a>, working with
+        <a href="https://search.asu.edu/profile/3025945">Dr. Robert LiKamWa</a>.
+      </p>
+    </div>
+
+    <a class="tile tile-peach tile-stat" href="#publications">
+      <span class="stat-num">4.7×</span>
+      <span class="stat-text">more write-then-view verification loops among higher-comprehension participants (<em>Faster but Not Wiser</em>).</span>
+    </a>
+
+    <a class="tile tile-rq tile-lavender" href="#research">
+      <span class="rq-num">RQ 01</span>
+      <h3>Perform vs. Understand</h3>
+      <p>Does understanding keep up when Copilot makes developers faster?</p>
+    </a>
+    <a class="tile tile-rq" href="#research">
+      <span class="rq-num">RQ 02</span>
+      <h3>Say, Do, Understand</h3>
+      <p>What developers write to agents, do while they work, and can explain afterwards.</p>
+    </a>
+    <a class="tile tile-rq" href="#research">
+      <span class="rq-num">RQ 03</span>
+      <h3>Design for Understanding</h3>
+      <p>Tools that keep developers verifying and in control of AI-generated code.</p>
+    </a>
+    <div class="tile tile-connect">
+      <span class="tile-label">Find me</span>
+      <p class="icon-row">{{ social_icons }}</p>
+    </div>
+
+    <div class="tile tile-featured">
+      <div class="featured-text">
+        <span class="tile-label">Featured paper</span>
+        <h2 class="featured-title">Beyond the Prompt: Linking What Developers Ask, Do, and Understand with Coding Agents</h2>
+        <p class="paper-meta"><span>arXiv preprint · 2026</span><span class="status">Under Review</span></p>
+        <p class="featured-links"><a href="https://arxiv.org/abs/2609.33712">Read the preprint →</a><a href="#publications">All publications →</a></p>
+      </div>
+      <a class="featured-fig" href="/images/pubs/beyond-the-prompt-fig.png" target="_blank" rel="noopener" title="Open full-size figure"><img src="/images/pubs/beyond-the-prompt-fig.png" alt="Fig. 1 from the paper: the Say, Do, Understand workflow from capture to interpretation" width="1300" height="382" loading="lazy"></a>
+    </div>
   </div>
 </section>
 
@@ -83,23 +118,27 @@ redirect_from:
     <h2 class="section-title" id="research-h">Research</h2>
     <p class="section-intro">GenAI is changing <em>how</em> software gets built and <em>what</em> developers need to understand. My work is organized around three connected questions.</p>
     <div class="rq-grid">
-      <article class="rq-card">
-        <span class="rq-num">01</span>
+      <article class="tile tile-lavender rq-card">
+        <span class="rq-num">RQ 01</span>
         <h3>Perform vs. Understand</h3>
-        <p>When Copilot makes developers faster and more correct in unfamiliar code, does their understanding keep up, and which behaviors separate those who understand from those who don't?</p>
+        <p>When GitHub Copilot makes developers faster and more correct in unfamiliar code, does their understanding of that code keep up, and which behaviors separate those who understand from those who don't?</p>
       </article>
-      <article class="rq-card">
-        <span class="rq-num">02</span>
+      <article class="tile rq-card">
+        <span class="rq-num">RQ 02</span>
         <h3>Say, Do, Understand</h3>
         <p>How do developers communicate with coding agents: what they write, what they do while the agent works, and what they can explain afterwards?</p>
       </article>
-      <article class="rq-card">
-        <span class="rq-num">03</span>
+      <article class="tile tile-peach rq-card">
+        <span class="rq-num">RQ 03</span>
         <h3>Design for Understanding</h3>
-        <p>How should AI coding tools be designed so developers actively verify, explain, and stay in control of AI-generated code, rather than accepting it without understanding?</p>
+        <p>How should AI coding assistants and agents be designed so that developers actively verify, explain, and stay in control of AI-generated code, rather than accepting it without understanding?</p>
       </article>
     </div>
-    <p class="keywords"><span>Empirical Software Engineering</span><span>Human–Computer Interaction</span><span>Human–AI Collaboration</span><span>AI Coding Agents</span><span>Program Comprehension</span><span>Developer Tools</span><span>Brownfield Development</span><span>Mixed Methods</span></p>
+    <div class="tile tile-methods">
+      <h3 class="tile-title">Methods &amp; keywords</h3>
+      <p>Controlled experiments, screen-recorded behavioral analysis, prompt analysis, and interviews, used to derive design implications for future AI coding agents and developer tools.</p>
+      <p class="keywords"><span>Empirical Software Engineering</span><span>Human–Computer Interaction</span><span>Human–AI Collaboration</span><span>AI Coding Agents</span><span>Program Comprehension</span><span>Developer Tools</span><span>Brownfield Development</span><span>Mixed Methods</span></p>
+    </div>
   </div>
 </section>
 
@@ -200,6 +239,7 @@ redirect_from:
 <section class="band" id="news" data-tab="news" aria-labelledby="news-h">
   <div class="container">
     <h2 class="section-title" id="news-h">News</h2>
+    <div class="tile tile-list">
     <ul class="news-list">
       <li><time datetime="2026-11">Nov 2026</time><span>Received the Oregon State University Scholarly Presentation Award.</span></li>
       <li><time datetime="2026-10">Oct 2026</time><span>Invited to serve on the Program Committee for the <a href="https://conf.researchr.org/track/saner-2027/saner-2027-short-papers-and-posters-track">SANER 2027</a> Short Papers and Posters Track.</span></li>
@@ -215,12 +255,13 @@ redirect_from:
         <li><time datetime="2025-08">Aug 2025</time><span>Our paper on GitHub Copilot in brownfield coding tasks was presented at <a href="https://doi.org/10.1145/3702652.3744219">ICER 2025</a> in Charlottesville, VA.</span></li>
       </ul>
     </details>
+    </div>
   </div>
 </section>
 
 <section class="band" id="experience" data-tab="experience" aria-labelledby="exp-h">
   <div class="container cv-grid">
-    <div>
+    <div class="tile">
       <h2 class="section-title" id="exp-h">Experience</h2>
       <ul class="timeline">
         <li><span class="when">2023 – Present</span><strong>Graduate Research Assistant</strong><span class="where"><a href="https://seal.oregonstate.edu/">SEAL Lab</a>, Oregon State University</span><span class="detail">Empirical studies of how developers use GenAI coding assistants and agents: controlled experiments, behavioral log analysis, and mixed-methods research.</span></li>
@@ -228,7 +269,7 @@ redirect_from:
         <li><span class="when">Aug – Nov 2020</span><strong>Software Engineering Intern</strong><span class="where">Mocha Software, Nanjing, China</span></li>
       </ul>
     </div>
-    <div id="education">
+    <div class="tile" id="education">
       <h2 class="section-title">Education</h2>
       <ul class="timeline">
         <li><span class="when">2023 – 2027</span><strong>Ph.D., Computer Science (expected)</strong><span class="where">Oregon State University</span></li>
@@ -244,8 +285,8 @@ redirect_from:
 
 <footer class="footer">
   <div class="container footer-inner">
-    <p class="icon-row">{{ social_icons }}</p>
     <p class="footer-text"><img src="/images/beaver.svg" width="20" height="20" alt="" aria-hidden="true">Corvallis, Oregon · © Yunhan Qiao {{ site.time | date: "%Y" }}</p>
+    <p class="icon-row icon-row-sm">{{ social_icons }}</p>
   </div>
 </footer>
 
