@@ -24,10 +24,11 @@ redirect_from:
       <span>Yunhan Qiao</span>
     </a>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#publications"><span class="full-label">Publications</span><span class="short-label">Papers</span></a></li>
-      <li><a href="#news">News</a></li>
+      <li><a href="#home" data-tab-link="home">Home</a></li>
+      <li><a href="#research" data-tab-link="research">Research</a></li>
+      <li><a href="#publications" data-tab-link="publications"><span class="full-label">Publications</span><span class="short-label">Papers</span></a></li>
+      <li><a href="#news" data-tab-link="news">News</a></li>
+      <li><a href="#experience" data-tab-link="experience">Experience</a></li>
       <li><a href="{{ cv_url }}">CV</a></li>
     </ul>
   </nav>
@@ -35,7 +36,7 @@ redirect_from:
 
 <main id="main">
 
-<section class="hero" aria-labelledby="name">
+<section class="hero" id="home" data-tab="home" aria-labelledby="name">
   <div class="container hero-inner">
     <div class="hero-photo">
       <img src="/{{ site.author.avatar }}" alt="Portrait of Yunhan Qiao" width="180" height="180">
@@ -53,7 +54,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="band" id="about" aria-labelledby="about-h">
+<section class="band band-about" id="about" data-tab="home" aria-labelledby="about-h">
   <div class="container prose">
     <h2 class="section-title" id="about-h">About</h2>
     <p class="lead">
@@ -77,7 +78,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="band band-alt" id="research" aria-labelledby="research-h">
+<section class="band" id="research" data-tab="research" aria-labelledby="research-h">
   <div class="container">
     <h2 class="section-title" id="research-h">Research</h2>
     <p class="section-intro">GenAI is changing <em>how</em> software gets built and <em>what</em> developers need to understand. My work is organized around three connected questions.</p>
@@ -102,7 +103,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="band" id="publications" aria-labelledby="pubs-h">
+<section class="band" id="publications" data-tab="publications" aria-labelledby="pubs-h">
   <div class="container">
     <h2 class="section-title" id="pubs-h">Publications</h2>
     <p class="section-intro">See my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a> for citations.</p>
@@ -196,7 +197,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="band band-alt" id="news" aria-labelledby="news-h">
+<section class="band" id="news" data-tab="news" aria-labelledby="news-h">
   <div class="container">
     <h2 class="section-title" id="news-h">News</h2>
     <ul class="news-list">
@@ -217,7 +218,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="band" id="experience" aria-labelledby="exp-h">
+<section class="band" id="experience" data-tab="experience" aria-labelledby="exp-h">
   <div class="container cv-grid">
     <div>
       <h2 class="section-title" id="exp-h">Experience</h2>
@@ -247,3 +248,40 @@ redirect_from:
     <p class="footer-text"><img src="/images/beaver.svg" width="20" height="20" alt="" aria-hidden="true">Corvallis, Oregon · © Yunhan Qiao {{ site.time | date: "%Y" }}</p>
   </div>
 </footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var panels = Array.prototype.slice.call(document.querySelectorAll('[data-tab]'));
+    var links = Array.prototype.slice.call(document.querySelectorAll('[data-tab-link]'));
+    var tabs = {};
+    panels.forEach(function (p) { tabs[p.getAttribute('data-tab')] = true; });
+
+    function tabFor(id) {
+      if (!id) return 'home';
+      if (tabs[id]) return id;
+      var el = document.getElementById(id);
+      var panel = el && el.closest('[data-tab]');
+      return panel ? panel.getAttribute('data-tab') : 'home';
+    }
+
+    function show(scrollToTarget, initial) {
+      var id = decodeURIComponent(location.hash.slice(1));
+      if (id === 'main' && !initial) return;
+      if (id === 'main' || id === 'top') id = '';
+      var tab = tabFor(id);
+      panels.forEach(function (p) { p.hidden = p.getAttribute('data-tab') !== tab; });
+      links.forEach(function (a) {
+        if (a.getAttribute('data-tab-link') === tab) a.setAttribute('aria-current', 'page');
+        else a.removeAttribute('aria-current');
+      });
+      var target = id && !tabs[id] ? document.getElementById(id) : null;
+      if (target && scrollToTarget) target.scrollIntoView();
+      else window.scrollTo(0, 0);
+    }
+
+    root.classList.add('js-tabs');
+    window.addEventListener('hashchange', function () { show(true); });
+    show(true, true);
+  })();
+</script>
